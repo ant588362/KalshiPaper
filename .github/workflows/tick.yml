@@ -1,0 +1,97 @@
+# Runs the paper bots on GitHub's computers, so the PC can be off.
+#
+# Always-on mode (public repo = unlimited free Actions minutes): one job stays alive for ~5h45m and runs a tick
+# every 5 minutes, saving the ledger after each one. The schedule below only has to start a job now and then:
+# the concurrency group keeps exactly one job running and one waiting, so when a job ends the waiting one
+# takes over right away. GitHub dropping some scheduled starts no longer matters.
+#
+# The ledger (paper.db) and the latest report live on the `state` branch, overwritten each tick (one commit).
+name: tick
+
+on:
+  schedule:
+    - cron: "13,43 * * * *"
+  workflow_dispatch:
+    inputs:
+      digest:
+        description: "Post the daily update now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      LOOP_MINUTES: 345   # stop starting new ticks after this, leaving room to save before the 6h job limit
+      EVERY_SECONDS: 300  # one tick every 5 minutes
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore the ledger
+        run: |
+          if git fetch -q origin state --depth=1; then
+            git show FETCH_HEAD:paper.db > paper.db
+          else
+            cp seed/paper.db paper.db
+          fi
+
+      - name: Tests
+        run: python -m unittest test_paper.py
+
+      - name: Run ticks every 5 minutes
+        env:
+          ASKED: ${{ inputs.digest == true }}
+        run: |
+          save_state() {
+            rm -rf /tmp/state && mkdir -p /tmp/state
+            cp paper.db /tmp/state/
+            cp -r reports/latest /tmp/state/latest
+            (cd /tmp/state && git init -q -b state && git add -A \
+              && git -c user.name=paper-bot -c user.email=paper-bot@users.noreply.github.com commit -qm "state $(date -u +%FT%TZ)" \
+              && git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" state)
+          }
+          daily_update() {
+            # Once a day (first tick at or after 13:00 UTC = 9am New York), or when asked on a manual run.
+            if [ "$ASKED" != "true" ] && ! python digest.py due; then return 0; fi
+            ASKED=false
+            python digest.py > digest.md || return 0
+            n=$(gh issue list --state open --limit 100 --json number,title --jq '[.[] | select(.title == "Daily report")][0].number // empty')
+            if [ -z "$n" ]; then
+              url=$(gh issue create --title "Daily report" --body "The bot posts a plain-words update here every morning. Watch this issue to get it by email.")
+              n="${url##*/}"
+            fi
+            gh issue comment "$n" --body-file digest.md && python digest.py posted
+          }
+          end=$(( $(date +%s) + LOOP_MINUTES * 60 ))
+          i=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s)
+            i=$((i + 1))
+            echo "::group::tick $i at $(date -u +%H:%M:%S)"
+            # A failed tick (Kalshi hiccup) is logged and skipped; the loop keeps going.
+            if timeout 240 python run.py tick > tick.log 2>&1; then
+              tail -n 3 tick.log
+              save_state || echo "::warning::saving the ledger failed on tick $i"
+              daily_update || echo "::warning::daily update failed on tick $i"
+            else
+              echo "::warning::tick $i failed"; tail -n 20 tick.log
+            fi
+            echo "::endgroup::"
+            left=$(( EVERY_SECONDS - ( $(date +%s) - start ) ))
+            [ "$left" -gt 0 ] && sleep "$left"
+          done
+          echo "Loop done after $i ticks; the next waiting job takes over."
