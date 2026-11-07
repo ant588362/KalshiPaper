@@ -539,8 +539,25 @@ def write_dashboard(db, out, summary, bar, points=90, recent_bets=15):
     recent = [dict(r) for r in db.execute(
         """SELECT bot, ticker, title, side, round(cost+fee, 2) AS spent, status, round(payout, 2) AS payout,
                   coalesce(settled_at, opened_at) AS at FROM positions ORDER BY coalesce(settled_at, opened_at) DESC LIMIT 40""")]
+    # Combined profit over time for the hero chart: the sum of (money - $100) across each group's bots at every run.
+    # Profit, not total money, so adding new bots (each starting at $100) doesn't look like a jump.
+    group_of = {}
+    for b in BOTS:
+        if b.retired or b.name == "cash":
+            continue
+        group_of[b.key] = "luck" if b.key.startswith("luck-") else "army" if getattr(b, "army", False) else "core"
+    totals = {}
+    for ts, bot, e in db.execute("SELECT ts, bot, equity FROM equity ORDER BY ts"):
+        g = group_of.get(bot)
+        if g:
+            t = totals.setdefault(ts, {"army": 0.0, "luck": 0.0, "core": 0.0})
+            t[g] += e - START_CASH
+    series = sorted(totals.items())
+    step = max(1, len(series) // 700)
+    series = series[::step] + ([series[-1]] if series and (len(series) - 1) % step else [])
     runs, gap = run_health(db)
     data = {"generated_at": now_iso(), "runs_24h": runs, "longest_gap_h": round(gap, 1), "bar": round(bar, 2),
+            "pnl_series": [[ts[:16], round(v["army"], 2), round(v["luck"], 2), round(v["core"], 2)] for ts, v in series],
             "min_settled": MIN_SETTLED_FOR_VERDICT, "start_cash": START_CASH, "bots": bots, "recent": recent,
             "calibration": calibration,
             "daily": [{"day": d, **{k: round(v, 2) for k, v in g.items()}} for d, g in sorted(daily.items())],
