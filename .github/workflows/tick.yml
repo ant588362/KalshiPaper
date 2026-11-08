@@ -33,6 +33,7 @@ jobs:
     env:
       LOOP_MINUTES: 345   # stop starting new ticks after this, leaving room to save before the 6h job limit
       EVERY_SECONDS: 300  # one tick every 5 minutes
+      PYTHONUNBUFFERED: "1"  # so a tick killed by the 240s timeout still shows how far it got
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4

@@ -11,7 +11,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 from run import MIN_SETTLED_FOR_VERDICT, START_CASH, connect, run_health, scale_check, t_bar, worst_drawdown
-from strategies import ARMY, BOTS, CORE
+from lineup import ARMY, BOTS, CORE
 
 BIG_DROP = 25.0  # a bot down this much from its best point gets flagged
 POST_HOUR_UTC = 13

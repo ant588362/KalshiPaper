@@ -18,7 +18,8 @@ from statistics import NormalDist
 
 import kalshi_api as api
 from fees import SUPPORTED, plan_buy
-from strategies import ARMY, BOTS, CORE, category
+from lineup import ARMY, BOTS, CORE
+from strategies import category
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(HERE, "paper.db")
@@ -130,8 +131,11 @@ def fees_for(db, event):
 def settle(db, log):
     """Pay out finished markets. Returns {ticker: market} for everything still held, for marking to market."""
     held = {}
-    for (ticker,) in db.execute("SELECT DISTINCT ticker FROM positions WHERE status = 'open'").fetchall():
-        m = api.market(ticker)
+    tickers = [r[0] for r in db.execute("SELECT DISTINCT ticker FROM positions WHERE status = 'open'").fetchall()]
+    # 2026-11-08: ~590 open markets checked one at a time took ~2.5 of the tick's 4 minutes; 4 at a time now.
+    with ThreadPoolExecutor(FETCH_WORKERS) as pool:
+        looked_up = list(pool.map(api.market, tickers))
+    for ticker, m in zip(tickers, looked_up):
         if not m:
             continue
         result = (m.get("result") or "").lower()
@@ -151,6 +155,7 @@ def settle(db, log):
     return held
 
 
+BUY_DEADLINE_S = 170  # the workflow kills a tick at 240s; stop fetching books past this so the tick still saves
 FETCH_WORKERS = 4  # parallel reads; each still pauses between requests, and 429s back off (kalshi_api.get)
 
 
@@ -175,6 +180,18 @@ def trade(db, universe, log):
             if wish and m[f"{wish[0]}_ask"] >= MIN_PRICE:
                 wishes.append((b, m, wish))
 
+    deployed, in_event = {}, {}
+    for r in db.execute("SELECT bot, event, sum(cost+fee) FROM positions WHERE status='open' GROUP BY bot, event"):
+        deployed[r[0]] = deployed.get(r[0], 0.0) + r[2]
+        in_event[(r[0], r[1])] = r[2]
+    money = {b.key: cash(db, b.key) for b in active}
+
+    # 2026-11-08: ticks were timing out on busy evenings (60 in a row on 11-07) because a book was fetched for every
+    # market ANY bot wanted, including bots already at their $50 limit that can't buy. Now books are fetched (in
+    # parallel) only for bots with room to buy; a book still missing at buy time is fetched on the spot. Same buys.
+    likely = [m for b, m, _ in wishes
+              if min(MAX_DEPLOYED - deployed.get(b.key, 0.0), money[b.key]) >= MIN_BUDGET]
+
     events = sorted({m["event"] for _, m, _ in wishes})
     cached = {r[0] for r in db.execute("SELECT event FROM series_cache")}
     todo = [e for e in events if e not in cached]
@@ -189,14 +206,9 @@ def trade(db, universe, log):
             fee_type, mult = (f["fee_type"], f["fee_multiplier"]) if f else ("unknown", 1.0)
             db.execute("INSERT OR REPLACE INTO series_cache VALUES (?,?,?,?)", (event, series, fee_type, mult))
         fee_of = {e: fees_for(db, e) for e in events}
-        tickers = sorted({m["ticker"] for _, m, _ in wishes if fee_of[m["event"]][0] in SUPPORTED})
+        tickers = sorted({m["ticker"] for m in likely if fee_of[m["event"]][0] in SUPPORTED})
         books = dict(zip(tickers, pool.map(api.orderbook, tickers)))
-
-    deployed, in_event = {}, {}
-    for r in db.execute("SELECT bot, event, sum(cost+fee) FROM positions WHERE status='open' GROUP BY bot, event"):
-        deployed[r[0]] = deployed.get(r[0], 0.0) + r[2]
-        in_event[(r[0], r[1])] = r[2]
-    money = {b.key: cash(db, b.key) for b in active}
+    late_fetches, skipped_late = 0, 0
 
     for b, m, wish in wishes:
         side, max_price = wish[0], wish[1]
@@ -210,6 +222,12 @@ def trade(db, universe, log):
         fee_type, mult = fee_of[m["event"]]
         if fee_type not in SUPPORTED:
             continue  # fee table we haven't verified: skip rather than guess
+        if m["ticker"] not in books:
+            if time.time() - now > BUY_DEADLINE_S:
+                skipped_late += 1  # out of time: better to save this tick than to be killed and lose it
+                continue
+            books[m["ticker"]] = api.orderbook(m["ticker"])
+            late_fetches += 1
         plan = plan_buy(side, books.get(m["ticker"]), budget, max_price, mult)
         if not plan:
             continue
@@ -228,6 +246,8 @@ def trade(db, universe, log):
                            (datetime.fromtimestamp(now, timezone.utc).strftime("%Y-%m-%d %H:%M:%S"), *[b.key for b in ARMY])).fetchone()[0]
     if army_buys:
         log.append(f"army: {army_buys} buys across {len(ARMY)} bots (listed in positions.csv)")
+    print(f"trade: {len(wishes)} wishes, {len(books) - late_fetches} books up front, {late_fetches} on the spot, "
+          f"{skipped_late} skipped for time, {time.time() - now:.0f}s", flush=True)
     db.commit()
 
 
@@ -425,6 +445,8 @@ def kind_of(b):
         return "luck", "any"
     if b.key.startswith("wx-"):
         return "weather model", "weather"
+    if getattr(b, "recruit", False):
+        return b.family, b.params.get("cat", "any")
     lo, hi = b.params["lo"], b.params["hi"]
     return ("favorite" if lo >= 0.65 else "longshot" if hi <= 0.45 else "coin flip"), b.params["cat"]
 
@@ -445,6 +467,8 @@ def describe(b):
         return CORE_DESC.get(b.name, "")
     if b.key.startswith("luck-"):
         return "Flips a coin on about 1 in 20 markets. Pure luck: the line every idea has to beat."
+    if getattr(b, "recruit", False):
+        return b.describe()
     P = b.params
     if b.key.startswith("wx-"):
         return (f"Weather: bets when the forecast and the market disagree by {P['min_shift_f']:g}F+, only with "
@@ -599,8 +623,11 @@ def tick():
     db = connect()
     freeze_bots(db)
     log = []
+    t0 = time.time()
     held = settle(db, log)
+    print(f"settle: {len(held)} still open, {time.time() - t0:.0f}s", flush=True)
     universe = [shape(m) for m in api.open_markets_closing_within(MAX_HOURS)]
+    print(f"markets: {len(universe)} listed, {time.time() - t0:.0f}s", flush=True)
     # Every market also sees its whole event (e.g. all temperature ranges for one city-day, tradable or not), so a
     # bot can read what the event's prices say together. Bots that don't need it ignore it.
     events = {}

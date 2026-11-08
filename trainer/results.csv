@@ -1,0 +1,601 @@
+bot,family,class,params,n,profit,per_bet,t,win_rate,avg_price,train_n,train_profit,train_t,test_n,test_profit,test_t,passes
+yesonly-crypto-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'yes')]",87,8.46,0.0972,2.61,0.977,0.945,65,8.28,7.21,22,0.18,0.06,False
+yesonly-finance-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'yes')]",269,14.81,0.0551,1.93,0.959,0.944,165,7.94,1.28,104,6.87,1.52,False
+btc-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXBTC',))]",96,18.37,0.1914,1.68,0.833,0.756,59,15.28,1.95,37,3.09,0.4,False
+noonly-crypto-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'no')]",110,12.64,0.1149,1.63,0.936,0.888,79,3.49,0.46,31,9.15,30.49,False
+eth-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXETH',))]",56,10.69,0.1909,1.22,0.768,0.748,42,5.24,0.65,14,5.45,1.52,False
+oil-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXWTI', 'KXBRENT'))]",73,5.81,0.0796,1.15,0.959,0.923,41,5.56,1.91,32,0.25,0.06,False
+yesonly-crypto-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'yes')]",124,18.06,0.1456,1.08,0.742,0.698,90,7.85,0.54,34,10.21,1.28,False
+eth-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXETH',))]",64,9.2,0.1437,0.97,0.781,0.752,48,5.94,0.71,16,3.26,0.72,False
+yesonly-crypto-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'yes')]",122,13.85,0.1135,0.83,0.738,0.7,90,6.8,0.46,32,7.05,0.89,False
+btc-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXBTC',))]",76,4.47,0.0588,0.82,0.947,0.925,47,1.91,0.42,29,2.56,0.82,False
+weather-33-45-6h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.45), ('hours_left', 6), ('lo', 0.33)]",56,15.17,0.2709,0.69,0.464,0.377,33,26.82,1.55,23,-11.65,-0.91,False
+yesonly-crypto-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'yes')]",126,12.56,0.0997,0.59,0.627,0.596,87,0.72,0.04,39,11.84,1.06,False
+finance-45-55-6h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.55), ('hours_left', 6), ('lo', 0.45)]",328,26.44,0.0806,0.58,0.5,0.48,186,29.64,0.85,142,-3.2,-0.11,False
+top-k5-60-80-12h-v1,new:EventTop,EventTop,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.6), ('min_brackets', 5)]",1961,41.23,0.021,0.58,0.724,0.703,1172,12.64,0.23,789,28.59,0.64,False
+top-k3-60-80-48h-v1,new:EventTop,EventTop,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.6), ('min_brackets', 3)]",3411,37.43,0.011,0.42,0.705,0.69,1963,-29.58,-0.43,1448,67.01,1.15,False
+yesonly-crypto-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'yes')]",121,8.51,0.0703,0.4,0.628,0.597,88,0.58,0.03,33,7.93,0.74,False
+top-k5-60-80-48h-v1,new:EventTop,EventTop,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.6), ('min_brackets', 5)]",1974,27.73,0.014,0.39,0.715,0.694,1176,-2.16,-0.04,798,29.89,0.67,False
+btc-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXBTC',))]",84,2.88,0.0343,0.35,0.893,0.867,51,3.84,0.66,33,-0.96,-0.17,False
+yesonly-crypto-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'yes')]",143,4.22,0.0295,0.34,0.825,0.793,111,-2.32,-0.21,32,6.54,1.31,False
+noonly-crypto-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'no')]",209,4.57,0.0219,0.32,0.833,0.809,150,7.6,0.64,59,-3.03,-0.38,False
+noonly-crypto-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'no')]",210,4.51,0.0215,0.31,0.833,0.809,150,7.43,0.62,60,-2.92,-0.36,False
+yesonly-crypto-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'yes')]",80,2.25,0.0281,0.29,0.9,0.889,59,2.87,0.44,21,-0.62,-0.15,False
+noonly-crypto-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'no')]",172,5.43,0.0316,0.27,0.721,0.705,130,15.77,0.94,42,-10.34,-0.94,False
+clock-12-18-wkend-65-80-v1,new:Clock,Clock,"[('from_h', 12), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 18), ('weekend', True)]",1449,15.65,0.0108,0.27,0.739,0.728,808,32.29,0.77,641,-16.64,-0.43,False
+noonly-crypto-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'no')]",94,4.23,0.045,0.26,0.745,0.706,65,9.0,0.71,29,-4.77,-0.49,False
+noonly-crypto-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'no')]",128,2.62,0.0205,0.23,0.82,0.807,87,-0.09,-0.01,41,2.71,0.45,False
+ncaaf-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXNCAAF', 'KXCFB'))]",1422,5.8,0.0041,0.22,0.931,0.924,823,33.25,1.81,599,-27.45,-1.42,False
+noonly-crypto-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'no')]",175,4.07,0.0233,0.2,0.726,0.704,131,12.9,0.75,44,-8.83,-0.8,False
+crypto-88-96-48h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.96), ('hours_left', 48), ('lo', 0.88)]",211,1.87,0.0089,0.18,0.929,0.922,156,2.24,0.25,55,-0.37,-0.07,False
+yesonly-crypto-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'yes')]",64,2.21,0.0345,0.17,0.719,0.701,45,2.29,0.2,19,-0.08,-0.01,False
+top-k5-80-95-12h-v1,new:EventTop,EventTop,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.8), ('min_brackets', 5)]",2840,7.27,0.0026,0.16,0.9,0.892,1655,26.1,0.76,1185,-18.83,-0.63,False
+yesonly-crypto-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'yes')]",92,1.33,0.0145,0.13,0.826,0.797,68,-1.88,-0.2,24,3.21,0.65,False
+crypto-70-78-4h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.78), ('hours_left', 4), ('lo', 0.7)]",103,0.83,0.0081,0.06,0.767,0.743,72,8.24,0.72,31,-7.41,-0.87,False
+oil-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXWTI', 'KXBRENT'))]",81,0.22,0.0027,0.04,0.926,0.922,44,5.71,1.82,37,-5.49,-1.03,False
+yesonly-crypto-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'yes')]",145,0.15,0.001,0.01,0.814,0.792,111,-2.29,-0.2,34,2.44,0.42,False
+crypto-70-78-48h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.78), ('hours_left', 48), ('lo', 0.7)]",206,-0.04,-0.0002,-0.0,0.762,0.742,151,-4.46,-0.27,55,4.42,0.43,False
+ncaab-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXNCAAB', 'KXCBB'))]",0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,False
+ncaab-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXNCAAB', 'KXCBB'))]",0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,False
+ncaab-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXNCAAB', 'KXCBB'))]",0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,False
+ncaab-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXNCAAB', 'KXCBB'))]",0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,False
+ncaab-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXNCAAB', 'KXCBB'))]",0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,False
+ncaab-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXNCAAB', 'KXCBB'))]",0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,0.0,False
+weather-45-55-6h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.55), ('hours_left', 6), ('lo', 0.45)]",21,-0.28,-0.0133,-0.02,0.524,0.486,13,1.56,0.15,8,-1.84,-0.24,False
+noonly-crypto-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'no')]",183,-0.39,-0.0021,-0.05,0.956,0.949,135,-0.21,-0.03,48,-0.18,-0.04,False
+noonly-crypto-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'no')]",147,-0.4,-0.0027,-0.06,0.946,0.951,108,1.47,0.27,39,-1.87,-0.44,False
+tennis-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXATP', 'KXWTA'))]",1010,-1.54,-0.0015,-0.06,0.921,0.915,614,44.59,2.71,396,-46.13,-2.47,False
+oil-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXWTI', 'KXBRENT'))]",94,-0.49,-0.0052,-0.06,0.84,0.853,52,2.67,0.47,42,-3.16,-0.54,False
+finance-45-55-48h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.55), ('hours_left', 48), ('lo', 0.45)]",448,-3.69,-0.0082,-0.08,0.493,0.481,260,22.48,0.63,188,-26.17,-0.82,False
+eth-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXETH',))]",60,-0.67,-0.0112,-0.09,0.867,0.85,47,-3.06,-0.43,13,2.39,0.76,False
+btc-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXBTC',))]",81,-0.77,-0.0095,-0.13,0.938,0.934,49,-0.2,-0.04,32,-0.57,-0.14,False
+yesonly-finance-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'yes')]",297,-2.39,-0.008,-0.16,0.892,0.885,180,1.51,0.14,117,-3.9,-0.38,False
+crypto-88-96-4h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.96), ('hours_left', 4), ('lo', 0.88)]",160,-1.54,-0.0096,-0.17,0.931,0.926,120,-3.61,-0.44,40,2.07,0.51,False
+tennis-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXATP', 'KXWTA'))]",1043,-4.49,-0.0043,-0.17,0.92,0.914,635,38.7,2.21,408,-43.19,-2.29,False
+top-k5-80-95-48h-v1,new:EventTop,EventTop,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('min_brackets', 5)]",2667,-7.54,-0.0028,-0.17,0.897,0.893,1553,27.2,0.85,1114,-34.74,-1.19,False
+yesonly-crypto-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'yes')]",73,-3.07,-0.0421,-0.18,0.616,0.601,54,-6.28,-0.41,19,3.21,0.39,False
+btc-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXBTC',))]",85,-1.7,-0.02,-0.19,0.871,0.863,53,9.41,1.91,32,-11.11,-1.6,False
+finance-88-96-12h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.96), ('hours_left', 12), ('lo', 0.88)]",430,-2.77,-0.0064,-0.2,0.919,0.923,253,4.58,0.45,177,-7.35,-0.75,False
+noonly-crypto-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'no')]",148,-4.77,-0.0322,-0.2,0.608,0.601,106,9.03,0.45,42,-13.8,-1.06,False
+ncaaf-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXNCAAF', 'KXCFB'))]",1598,-10.67,-0.0067,-0.2,0.761,0.75,887,19.8,0.51,711,-30.47,-0.85,False
+yesonly-crypto-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'yes')]",115,-2.24,-0.0195,-0.24,0.87,0.886,86,-0.49,-0.06,29,-1.75,-0.35,False
+yesonly-crypto-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'yes')]",114,-2.35,-0.0206,-0.25,0.868,0.887,86,-3.57,-0.43,28,1.22,0.29,False
+yesonly-finance-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'yes')]",288,-2.77,-0.0096,-0.25,0.934,0.941,174,3.93,0.49,114,-6.7,-0.89,False
+eth-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXETH',))]",68,-1.54,-0.0226,-0.26,0.926,0.927,53,-4.16,-0.72,15,2.62,7.59,False
+crypto-33-45-6h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.45), ('hours_left', 6), ('lo', 0.33)]",130,-10.67,-0.0821,-0.29,0.377,0.388,96,-23.35,-0.76,34,12.68,0.62,False
+yesonly-finance-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'yes')]",292,-3.4,-0.0116,-0.31,0.935,0.941,180,3.84,0.48,112,-7.24,-0.97,False
+noonly-finance-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'no')]",286,-4.7,-0.0164,-0.31,0.892,0.887,180,-18.44,-1.41,106,13.74,1.92,False
+weather-88-96-4h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.96), ('hours_left', 4), ('lo', 0.88)]",111,-2.46,-0.0222,-0.32,0.928,0.93,69,-2.56,-0.4,42,0.1,0.02,False
+noonly-crypto-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'no')]",184,-2.82,-0.0153,-0.32,0.951,0.949,137,-2.73,-0.35,47,-0.09,-0.02,False
+noonly-crypto-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'no')]",91,-6.29,-0.0691,-0.33,0.604,0.605,64,-1.87,-0.12,27,-4.42,-0.4,False
+sp500-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXINX',))]",150,-2.85,-0.019,-0.34,0.907,0.924,86,-4.25,-0.62,64,1.4,0.29,False
+crypto-88-96-12h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.96), ('hours_left', 12), ('lo', 0.88)]",216,-3.43,-0.0159,-0.35,0.921,0.929,156,-3.61,-0.41,60,0.18,0.04,False
+sp500-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXINX',))]",153,-4.12,-0.0269,-0.35,0.856,0.855,89,-0.6,-0.07,64,-3.52,-0.43,False
+luck-44-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",3467,-57.8,-0.0167,-0.41,0.553,0.546,1956,-42.96,-0.4,1511,-14.84,-0.16,False
+finance-88-96-48h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.96), ('hours_left', 48), ('lo', 0.88)]",419,-6.13,-0.0146,-0.42,0.916,0.923,243,0.8,0.07,176,-6.93,-0.69,False
+nasdaq-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXNASDAQ',))]",76,-3.04,-0.04,-0.42,0.908,0.918,44,-0.63,-0.12,32,-2.41,-0.48,False
+weather-80-88-4h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.88), ('hours_left', 4), ('lo', 0.8)]",48,-3.52,-0.0733,-0.45,0.833,0.843,26,-3.67,-0.61,22,0.15,0.03,False
+noonly-crypto-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'no')]",155,-10.99,-0.0709,-0.45,0.594,0.599,109,4.3,0.21,46,-15.29,-1.14,False
+noonly-finance-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'no')]",340,-5.34,-0.0157,-0.46,0.947,0.948,210,-2.01,-0.22,130,-3.33,-0.46,False
+eth-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXETH',))]",61,-2.97,-0.0487,-0.46,0.918,0.923,48,0.35,0.07,13,-3.32,-0.83,False
+sp500-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXINX',))]",147,-4.03,-0.0274,-0.47,0.905,0.925,84,-0.6,-0.1,63,-3.43,-0.58,False
+noonly-finance-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'no')]",360,-9.64,-0.0268,-0.49,0.8,0.804,217,-23.76,-1.45,143,14.12,1.29,False
+soccer-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXEPL', 'KXUCL', 'KXLALIGA', 'KXSERIEA', 'KXBUNDESLIGA', 'KXLIGUE1', 'KXMLS'))]",1391,-13.62,-0.0098,-0.5,0.926,0.924,732,-27.13,-1.3,659,13.51,0.76,False
+weather-70-78-4h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.78), ('hours_left', 4), ('lo', 0.7)]",37,-5.1,-0.1378,-0.51,0.703,0.734,27,-10.55,-1.19,10,5.45,1.4,False
+crypto-21-33-6h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.33), ('hours_left', 6), ('lo', 0.21)]",145,-26.78,-0.1847,-0.52,0.255,0.261,103,-9.58,-0.22,42,-17.2,-0.64,False
+yesonly-finance-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'yes')]",303,-8.15,-0.0269,-0.53,0.888,0.886,183,3.06,0.28,120,-11.21,-1.02,False
+noonly-crypto-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'no')]",178,-6.27,-0.0352,-0.53,0.888,0.891,135,-5.69,-0.54,43,-0.58,-0.1,False
+follow-3h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 3), ('mode', 'follow'), ('move', 0.05)]",7190,-99.63,-0.0139,-0.54,0.622,0.611,6885,-1.04,-0.01,305,-98.59,-2.86,False
+clock-06-12-wkend-80-92-v1,new:Clock,Clock,"[('from_h', 6), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 12), ('weekend', True)]",892,-15.64,-0.0175,-0.54,0.863,0.859,459,-8.35,-0.4,433,-7.29,-0.36,False
+noonly-finance-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'no')]",272,-14.79,-0.0544,-0.56,0.699,0.703,160,-33.94,-1.6,112,19.15,1.21,False
+ncaaf-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXNCAAF', 'KXCFB'))]",1210,-14.82,-0.0122,-0.57,0.927,0.924,694,18.94,1.06,516,-33.76,-1.79,False
+weather-21-33-6h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.33), ('hours_left', 6), ('lo', 0.21)]",64,-18.03,-0.2817,-0.59,0.266,0.261,37,14.35,0.59,27,-32.38,-1.83,False
+follow-6h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 6), ('mode', 'follow'), ('move', 0.1)]",6760,-99.78,-0.0148,-0.59,0.64,0.631,5927,109.56,0.69,833,-209.34,-3.67,False
+clock-06-12-wkend-65-80-v1,new:Clock,Clock,"[('from_h', 6), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 12), ('weekend', True)]",939,-28.39,-0.0302,-0.61,0.72,0.725,485,-38.34,-1.15,454,9.95,0.31,False
+finance-80-88-4h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.88), ('hours_left', 4), ('lo', 0.8)]",393,-11.96,-0.0304,-0.62,0.84,0.84,233,-10.57,-0.69,160,-1.39,-0.12,False
+eth-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXETH',))]",67,-5.21,-0.0778,-0.63,0.836,0.853,56,-0.48,-0.07,11,-4.73,-1.01,False
+btc-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXBTC',))]",96,-8.21,-0.0855,-0.65,0.76,0.755,61,4.95,0.54,35,-13.16,-1.53,False
+crypto-80-88-4h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.88), ('hours_left', 4), ('lo', 0.8)]",128,-7.75,-0.0605,-0.66,0.836,0.843,93,0.74,0.08,35,-8.49,-1.21,False
+oil-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXWTI', 'KXBRENT'))]",103,-8.7,-0.0845,-0.68,0.738,0.745,59,-6.38,-0.64,44,-2.32,-0.28,False
+liquid-75-85-v100000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('max_spread', 0.01), ('min_vol', 100000)]",360,-15.5,-0.0431,-0.69,0.8,0.805,202,-3.08,-0.19,158,-12.42,-0.81,False
+noonly-finance-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'no')]",339,-8.35,-0.0246,-0.7,0.944,0.948,205,-5.42,-0.56,134,-2.93,-0.41,False
+nasdaq-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXNASDAQ',))]",74,-5.32,-0.0719,-0.7,0.905,0.92,42,-3.13,-0.54,32,-2.19,-0.43,False
+follow-6h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 6), ('mode', 'follow'), ('move', 0.05)]",4321,-99.59,-0.023,-0.71,0.629,0.619,4321,-99.59,-0.71,0,0.0,0.0,False
+oil-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXWTI', 'KXBRENT'))]",97,-6.42,-0.0662,-0.72,0.825,0.849,52,-5.18,-0.74,45,-1.24,-0.23,False
+follow-1h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 1), ('mode', 'follow'), ('move', 0.05)]",3956,-99.74,-0.0252,-0.74,0.629,0.619,3956,-99.74,-0.74,0,0.0,0.0,False
+oil-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXWTI', 'KXBRENT'))]",93,-9.57,-0.1029,-0.75,0.742,0.755,53,-6.23,-0.64,40,-3.34,-0.4,False
+top-k3-40-60-12h-v1,new:EventTop,EventTop,"[('hi', 0.6), ('hours_left', 12), ('lo', 0.4), ('min_brackets', 3)]",2777,-99.51,-0.0358,-0.75,0.497,0.491,2664,-38.45,-0.3,113,-61.06,-2.58,False
+crypto-70-78-12h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.78), ('hours_left', 12), ('lo', 0.7)]",182,-14.21,-0.0781,-0.76,0.725,0.743,137,-1.78,-0.11,45,-12.43,-1.21,False
+top-k3-40-60-48h-v1,new:EventTop,EventTop,"[('hi', 0.6), ('hours_left', 48), ('lo', 0.4), ('min_brackets', 3)]",2959,-99.8,-0.0337,-0.76,0.498,0.492,2546,17.45,0.14,413,-117.24,-2.37,False
+follow-3h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 3), ('mode', 'follow'), ('move', 0.1)]",4071,-99.54,-0.0245,-0.77,0.639,0.633,4071,-99.54,-0.77,0,0.0,0.0,False
+sp500-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXINX',))]",152,-9.59,-0.0631,-0.78,0.842,0.854,90,-5.52,-0.6,62,-4.07,-0.5,False
+top-k3-80-95-48h-v1,new:EventTop,EventTop,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('min_brackets', 3)]",3368,-38.94,-0.0116,-0.78,0.887,0.885,1905,17.43,0.48,1463,-56.37,-1.65,False
+yesonly-finance-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'yes')]",368,-22.98,-0.0624,-0.79,0.696,0.698,218,-17.52,-0.8,150,-5.46,-0.29,False
+luck-59-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",2862,-99.88,-0.0349,-0.8,0.544,0.547,1948,-77.78,-0.74,914,-22.1,-0.32,False
+luck-42-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",2738,-99.96,-0.0365,-0.81,0.552,0.548,1956,-82.12,-0.8,782,-17.84,-0.26,False
+liquid-65-75-v100000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('max_spread', 0.01), ('min_vol', 100000)]",300,-26.2,-0.0873,-0.81,0.683,0.69,156,-18.14,-0.77,144,-8.06,-0.37,False
+luck-92-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",2385,-99.98,-0.0419,-0.82,0.534,0.542,2043,-9.73,-0.09,342,-90.25,-1.94,False
+luck-38-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",2515,-99.87,-0.0397,-0.84,0.546,0.548,2040,16.76,0.15,475,-116.63,-2.5,False
+follow-12h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 12), ('mode', 'follow'), ('move', 0.1)]",3661,-99.86,-0.0273,-0.84,0.646,0.642,3661,-99.86,-0.84,0,0.0,0.0,False
+yesonly-finance-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'yes')]",377,-30.13,-0.0799,-0.85,0.594,0.594,219,-21.25,-0.79,158,-8.88,-0.38,False
+clock-12-18-wkend-80-92-v1,new:Clock,Clock,"[('from_h', 12), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 18), ('weekend', True)]",1369,-31.06,-0.0227,-0.85,0.861,0.86,755,18.87,0.73,614,-49.93,-1.92,False
+sports-45-55-48h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.55), ('hours_left', 48), ('lo', 0.45)]",1998,-99.83,-0.05,-0.86,0.478,0.477,1998,-99.83,-0.86,0,0.0,0.0,False
+luck-05-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",2203,-99.88,-0.0453,-0.89,0.538,0.545,2077,-69.72,-0.63,126,-30.16,-1.31,False
+noonly-crypto-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'no')]",176,-11.2,-0.0636,-0.9,0.881,0.89,133,-7.59,-0.71,43,-3.61,-0.58,False
+follow-12h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 12), ('mode', 'follow'), ('move', 0.05)]",2812,-99.93,-0.0355,-0.9,0.635,0.626,2812,-99.93,-0.9,0,0.0,0.0,False
+sp500-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXINX',))]",153,-15.16,-0.0991,-0.91,0.732,0.749,85,-9.68,-0.8,68,-5.48,-0.48,False
+sports-33-45-6h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.45), ('hours_left', 6), ('lo', 0.33)]",1183,-99.65,-0.0842,-0.92,0.388,0.393,1183,-99.65,-0.92,0,0.0,0.0,False
+nasdaq-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXNASDAQ',))]",92,-10.75,-0.1168,-0.92,0.707,0.759,46,-11.38,-1.27,46,0.63,0.08,False
+luck-30-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",2184,-99.96,-0.0458,-0.93,0.562,0.554,2062,-48.22,-0.46,122,-51.74,-2.14,False
+sports-33-45-48h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.45), ('hours_left', 48), ('lo', 0.33)]",1156,-99.97,-0.0865,-0.94,0.387,0.393,1156,-99.97,-0.94,0,0.0,0.0,False
+liquid-75-85-v100000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 12), ('lo', 0.75), ('max_spread', 0.01), ('min_vol', 100000)]",353,-21.17,-0.06,-0.94,0.796,0.805,199,-4.94,-0.3,154,-16.23,-1.06,False
+luck-20-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1971,-99.5,-0.0505,-0.95,0.55,0.548,1932,-91.42,-0.88,39,-8.08,-0.83,False
+ncaaf-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXNCAAF', 'KXCFB'))]",1557,-36.79,-0.0236,-0.95,0.859,0.851,884,-11.47,-0.4,673,-25.32,-0.98,False
+yesonly-finance-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'yes')]",365,-34.21,-0.0937,-0.97,0.581,0.594,209,-25.04,-0.94,156,-9.17,-0.4,False
+fade-12h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 12), ('mode', 'fade'), ('move', 0.2)]",964,-99.7,-0.1034,-0.97,0.389,0.4,964,-99.7,-0.97,0,0.0,0.0,False
+luck-98-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1934,-99.89,-0.0516,-0.99,0.556,0.553,1868,-78.89,-0.8,66,-21.0,-1.12,False
+yesonly-finance-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'yes')]",378,-29.02,-0.0768,-0.99,0.693,0.698,222,-6.99,-0.32,156,-22.03,-1.11,False
+yesonly-finance-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'yes')]",266,-15.0,-0.0564,-0.99,0.872,0.886,164,-5.29,-0.47,102,-9.71,-0.95,False
+clock-18-24-wkend-65-80-v1,new:Clock,Clock,"[('from_h', 18), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 24), ('weekend', True)]",1468,-57.34,-0.0391,-0.99,0.73,0.728,911,-72.8,-1.58,557,15.46,0.44,False
+luck-23-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1797,-99.75,-0.0555,-1.0,0.551,0.546,1773,-93.82,-0.95,24,-5.93,-0.65,False
+crypto-45-55-6h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.55), ('hours_left', 6), ('lo', 0.45)]",86,-24.28,-0.2823,-1.0,0.407,0.478,58,-17.28,-0.85,28,-7.0,-0.51,False
+crypto-80-88-48h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.88), ('hours_left', 48), ('lo', 0.8)]",219,-15.18,-0.0693,-1.01,0.826,0.845,163,5.96,0.53,56,-21.14,-2.2,False
+fx-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXUSDJPY', 'KXEURUSD'))]",14,-3.51,-0.2507,-1.01,0.786,0.915,9,-1.4,-0.66,5,-2.11,-0.71,False
+luck-74-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1771,-99.89,-0.0564,-1.02,0.556,0.555,1771,-99.89,-1.02,0,0.0,0.0,False
+follow-3h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 3), ('mode', 'follow'), ('move', 0.2)]",2831,-99.53,-0.0352,-1.02,0.668,0.67,2831,-99.53,-1.02,0,0.0,0.0,False
+finance-88-96-4h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.96), ('hours_left', 4), ('lo', 0.88)]",375,-15.03,-0.0401,-1.03,0.912,0.925,223,-15.66,-1.3,152,0.63,0.08,False
+yesonly-sports-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'yes')]",3655,-56.31,-0.0154,-1.03,0.885,0.883,2112,22.51,0.56,1543,-78.82,-2.14,False
+liquid-65-75-v100000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 12), ('lo', 0.65), ('max_spread', 0.01), ('min_vol', 100000)]",291,-32.78,-0.1126,-1.03,0.677,0.69,154,-20.49,-0.87,137,-12.29,-0.57,False
+luck-76-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1668,-99.86,-0.0599,-1.05,0.555,0.558,1668,-99.86,-1.05,0,0.0,0.0,False
+sp500-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXINX',))]",158,-17.79,-0.1126,-1.05,0.722,0.748,88,-6.72,-0.55,70,-11.07,-0.93,False
+follow-1h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 1), ('mode', 'follow'), ('move', 0.1)]",2074,-99.89,-0.0482,-1.05,0.639,0.631,2074,-99.89,-1.05,0,0.0,0.0,False
+other-21-33-6h-v1,live,Band,"[('cat', 'other'), ('hi', 0.33), ('hours_left', 6), ('lo', 0.21)]",548,-99.84,-0.1822,-1.06,0.252,0.268,548,-99.84,-1.06,0,0.0,0.0,False
+luck-82-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1627,-99.8,-0.0613,-1.06,0.546,0.55,1627,-99.8,-1.06,0,0.0,0.0,False
+luck-39-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1541,-99.55,-0.0646,-1.09,0.546,0.546,1541,-99.55,-1.09,0,0.0,0.0,False
+luck-49-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1550,-99.85,-0.0644,-1.09,0.532,0.548,1550,-99.85,-1.09,0,0.0,0.0,False
+yesonly-any-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'yes')]",2136,-99.72,-0.0467,-1.09,0.6,0.596,2136,-99.72,-1.09,0,0.0,0.0,False
+fx-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXUSDJPY', 'KXEURUSD'))]",22,-7.45,-0.3386,-1.09,0.636,0.767,14,-2.56,-0.47,8,-4.89,-1.12,False
+yesonly-other-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'yes')]",2079,-99.88,-0.048,-1.1,0.595,0.596,1814,-60.17,-0.7,265,-39.71,-1.32,False
+mlb-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXMLB',))]",1076,-50.14,-0.0466,-1.1,0.736,0.749,963,-72.34,-1.66,113,22.2,1.8,False
+yesonly-any-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'yes')]",2039,-99.83,-0.049,-1.11,0.597,0.596,2039,-99.83,-1.11,0,0.0,0.0,False
+yesonly-any-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'yes')]",1931,-99.73,-0.0516,-1.12,0.6,0.596,1931,-99.73,-1.12,0,0.0,0.0,False
+luck-22-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1456,-99.78,-0.0685,-1.14,0.547,0.554,1456,-99.78,-1.14,0,0.0,0.0,False
+yesonly-sports-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'yes')]",3313,-58.19,-0.0176,-1.14,0.883,0.883,1980,-8.97,-0.23,1333,-49.22,-1.49,False
+nasdaq-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXNASDAQ',))]",92,-11.74,-0.1276,-1.14,0.837,0.853,53,-10.73,-1.31,39,-1.01,-0.16,False
+follow-6h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 6), ('mode', 'follow'), ('move', 0.2)]",2400,-100.0,-0.0417,-1.15,0.674,0.672,2400,-100.0,-1.15,0,0.0,0.0,False
+luck-10-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1349,-99.86,-0.074,-1.16,0.548,0.554,1349,-99.86,-1.16,0,0.0,0.0,False
+luck-52-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1379,-99.99,-0.0725,-1.17,0.558,0.545,1379,-99.99,-1.17,0,0.0,0.0,False
+luck-58-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1262,-99.95,-0.0792,-1.17,0.544,0.544,1262,-99.95,-1.17,0,0.0,0.0,False
+luck-54-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1293,-99.68,-0.0771,-1.18,0.556,0.551,1293,-99.68,-1.18,0,0.0,0.0,False
+noonly-other-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'no')]",1757,-99.71,-0.0568,-1.18,0.603,0.601,1757,-99.71,-1.18,0,0.0,0.0,False
+top-k5-40-60-12h-v1,new:EventTop,EventTop,"[('hi', 0.6), ('hours_left', 12), ('lo', 0.4), ('min_brackets', 5)]",1150,-99.59,-0.0866,-1.18,0.497,0.5,1055,-61.05,-0.75,95,-38.54,-1.64,False
+luck-45-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1235,-99.74,-0.0808,-1.2,0.546,0.548,1235,-99.74,-1.2,0,0.0,0.0,False
+fx-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXUSDJPY', 'KXEURUSD'))]",18,-5.36,-0.2978,-1.22,0.778,0.912,10,-3.87,-1.14,8,-1.49,-0.5,False
+luck-72-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1150,-99.88,-0.0869,-1.23,0.535,0.537,1150,-99.88,-1.23,0,0.0,0.0,False
+yesonly-sports-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'yes')]",1562,-99.53,-0.0637,-1.23,0.599,0.596,1562,-99.53,-1.23,0,0.0,0.0,False
+ncaaf-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXNCAAF', 'KXCFB'))]",1274,-59.19,-0.0465,-1.23,0.752,0.75,715,11.43,0.32,559,-70.62,-2.16,False
+luck-26-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1064,-99.78,-0.0938,-1.24,0.529,0.538,1064,-99.78,-1.24,0,0.0,0.0,False
+noonly-finance-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'no')]",307,-15.14,-0.0493,-1.24,0.938,0.949,192,-11.12,-1.1,115,-4.02,-0.58,False
+luck-03-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1153,-99.62,-0.0864,-1.25,0.547,0.549,1153,-99.62,-1.25,0,0.0,0.0,False
+crypto-33-45-48h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.45), ('hours_left', 48), ('lo', 0.33)]",198,-52.75,-0.2664,-1.25,0.369,0.386,144,-51.7,-1.46,54,-1.05,-0.05,False
+other-21-33-48h-v1,live,Band,"[('cat', 'other'), ('hi', 0.33), ('hours_left', 48), ('lo', 0.21)]",449,-99.79,-0.2222,-1.25,0.256,0.267,449,-99.79,-1.25,0,0.0,0.0,False
+yesonly-any-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'yes')]",5186,-99.4,-0.0192,-1.25,0.805,0.799,4230,-92.36,-1.27,956,-7.04,-0.21,False
+yesonly-any-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'yes')]",5507,-99.92,-0.0181,-1.25,0.802,0.799,4173,-76.96,-1.09,1334,-22.96,-0.59,False
+yesonly-other-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'yes')]",1590,-99.74,-0.0627,-1.26,0.592,0.596,1545,-82.25,-1.05,45,-17.49,-1.52,False
+luck-73-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",996,-99.96,-0.1004,-1.27,0.525,0.544,996,-99.96,-1.27,0,0.0,0.0,False
+finance-33-45-6h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.45), ('hours_left', 6), ('lo', 0.33)]",426,-76.22,-0.1789,-1.28,0.385,0.392,242,27.64,0.6,184,-103.86,-2.79,False
+yesonly-any-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'yes')]",5222,-99.39,-0.019,-1.28,0.803,0.799,3872,-77.91,-1.15,1350,-21.48,-0.55,False
+sports-21-33-48h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.33), ('hours_left', 48), ('lo', 0.21)]",398,-99.8,-0.2508,-1.29,0.249,0.27,398,-99.8,-1.29,0,0.0,0.0,False
+yesonly-sports-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'yes')]",1523,-99.8,-0.0655,-1.29,0.596,0.595,1523,-99.8,-1.29,0,0.0,0.0,False
+luck-01-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1022,-99.97,-0.0978,-1.3,0.526,0.544,1022,-99.97,-1.3,0,0.0,0.0,False
+luck-41-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1071,-99.8,-0.0932,-1.3,0.53,0.545,1071,-99.8,-1.3,0,0.0,0.0,False
+yesonly-other-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'yes')]",1389,-99.73,-0.0718,-1.3,0.592,0.597,1389,-99.73,-1.3,0,0.0,0.0,False
+luck-65-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1019,-99.51,-0.0977,-1.31,0.539,0.543,1019,-99.51,-1.31,0,0.0,0.0,False
+fav-80-90-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 2), ('lo', 0.8)]",5546,-99.91,-0.018,-1.32,0.855,0.852,5546,-99.91,-1.32,0,0.0,0.0,False
+luck-81-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1056,-99.88,-0.0946,-1.32,0.556,0.547,1056,-99.88,-1.32,0,0.0,0.0,False
+nasdaq-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXNASDAQ',))]",93,-14.05,-0.1511,-1.33,0.828,0.851,53,-10.69,-1.3,40,-3.36,-0.5,False
+noonly-finance-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'no')]",302,-45.32,-0.1501,-1.34,0.566,0.603,173,-60.78,-2.32,129,15.46,0.73,False
+luck-47-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",925,-99.52,-0.1076,-1.35,0.524,0.544,925,-99.52,-1.35,0,0.0,0.0,False
+luck-11-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",982,-99.52,-0.1013,-1.36,0.547,0.557,982,-99.52,-1.36,0,0.0,0.0,False
+ncaaf-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXNCAAF', 'KXCFB'))]",1235,-47.75,-0.0387,-1.36,0.849,0.853,686,-4.27,-0.17,549,-43.48,-1.81,False
+fav-80-85-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 2), ('lo', 0.8)]",4353,-99.25,-0.0228,-1.37,0.829,0.826,4353,-99.25,-1.37,0,0.0,0.0,False
+other-33-45-48h-v1,live,Band,"[('cat', 'other'), ('hi', 0.45), ('hours_left', 48), ('lo', 0.33)]",624,-99.77,-0.1599,-1.37,0.364,0.391,624,-99.77,-1.37,0,0.0,0.0,False
+luck-56-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",1025,-99.95,-0.0975,-1.37,0.538,0.554,1025,-99.95,-1.37,0,0.0,0.0,False
+top-k5-40-60-48h-v1,new:EventTop,EventTop,"[('hi', 0.6), ('hours_left', 48), ('lo', 0.4), ('min_brackets', 5)]",992,-99.73,-0.1005,-1.37,0.487,0.494,940,-76.71,-1.08,52,-23.02,-1.53,False
+luck-36-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",939,-99.69,-0.1062,-1.38,0.547,0.558,939,-99.69,-1.38,0,0.0,0.0,False
+fade-6h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 6), ('mode', 'fade'), ('move', 0.2)]",530,-99.83,-0.1884,-1.38,0.396,0.412,530,-99.83,-1.38,0,0.0,0.0,False
+luck-94-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",868,-99.59,-0.1147,-1.39,0.529,0.542,868,-99.59,-1.39,0,0.0,0.0,False
+trend-with-65-80-6h-m03-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 6), ('move', 0.03)]",2475,-99.84,-0.0403,-1.39,0.729,0.729,2475,-99.84,-1.39,0,0.0,0.0,False
+luck-100-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",957,-99.91,-0.1044,-1.4,0.537,0.554,957,-99.91,-1.4,0,0.0,0.0,False
+yesonly-sports-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'yes')]",1320,-99.68,-0.0755,-1.4,0.596,0.595,1320,-99.68,-1.4,0,0.0,0.0,False
+weather-88-96-12h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.96), ('hours_left', 12), ('lo', 0.88)]",723,-29.7,-0.0411,-1.41,0.92,0.928,439,-5.48,-0.36,284,-24.22,-1.7,False
+yesonly-sports-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'yes')]",4014,-99.86,-0.0249,-1.41,0.801,0.799,3116,-18.36,-0.3,898,-81.5,-2.38,False
+yesonly-sports-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'yes')]",3525,-76.27,-0.0216,-1.41,0.884,0.883,2175,-12.37,-0.29,1350,-63.9,-1.87,False
+weather-21-33-48h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.33), ('hours_left', 48), ('lo', 0.21)]",447,-99.76,-0.2232,-1.42,0.253,0.275,447,-99.76,-1.42,0,0.0,0.0,False
+fade-12h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 12), ('mode', 'fade'), ('move', 0.1)]",541,-99.84,-0.1845,-1.42,0.429,0.444,541,-99.84,-1.42,0,0.0,0.0,False
+luck-12-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",887,-100.0,-0.1127,-1.43,0.537,0.543,887,-100.0,-1.43,0,0.0,0.0,False
+finance-21-33-6h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.33), ('hours_left', 6), ('lo', 0.21)]",391,-99.83,-0.2553,-1.43,0.258,0.266,267,-43.42,-0.75,124,-56.41,-1.46,False
+luck-67-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",869,-99.78,-0.1148,-1.43,0.517,0.541,869,-99.78,-1.43,0,0.0,0.0,False
+fav-80-90-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 6), ('lo', 0.8)]",4840,-99.31,-0.0205,-1.44,0.856,0.852,4840,-99.31,-1.44,0,0.0,0.0,False
+finance-33-45-48h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.45), ('hours_left', 48), ('lo', 0.33)]",495,-85.98,-0.1737,-1.44,0.386,0.393,291,-39.98,-0.85,204,-46.0,-1.23,False
+luck-63-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",968,-99.82,-0.1031,-1.44,0.533,0.55,968,-99.82,-1.44,0,0.0,0.0,False
+yesonly-sports-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'yes')]",3915,-99.41,-0.0254,-1.44,0.801,0.798,2931,-18.68,-0.32,984,-80.73,-2.28,False
+fx-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXUSDJPY', 'KXEURUSD'))]",26,-7.97,-0.3065,-1.44,0.692,0.84,17,-3.11,-0.79,9,-4.86,-1.22,False
+luck-29-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",926,-99.95,-0.1079,-1.45,0.543,0.552,926,-99.95,-1.45,0,0.0,0.0,False
+fav-80-90-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 12), ('lo', 0.8)]",4773,-99.31,-0.0208,-1.45,0.854,0.852,4773,-99.31,-1.45,0,0.0,0.0,False
+fav-80-90-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 48), ('lo', 0.8)]",4773,-99.21,-0.0208,-1.45,0.856,0.852,4773,-99.21,-1.45,0,0.0,0.0,False
+finance-80-88-12h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.88), ('hours_left', 12), ('lo', 0.8)]",483,-31.06,-0.0643,-1.45,0.83,0.839,280,-22.59,-1.35,203,-8.47,-0.63,False
+yesonly-crypto-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'yes')]",115,-12.69,-0.1103,-1.45,0.896,0.942,85,-13.38,-1.64,30,0.69,0.21,False
+trend-with-65-80-2h-m03-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 2), ('move', 0.03)]",2207,-99.61,-0.0451,-1.47,0.725,0.728,2207,-99.61,-1.47,0,0.0,0.0,False
+top-k3-80-95-12h-v1,new:EventTop,EventTop,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.8), ('min_brackets', 3)]",3655,-80.72,-0.0221,-1.47,0.886,0.884,2152,-29.49,-0.71,1503,-51.22,-1.44,False
+luck-14-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",836,-99.87,-0.1195,-1.48,0.544,0.546,836,-99.87,-1.48,0,0.0,0.0,False
+fav-75-85-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75)]",3620,-99.83,-0.0276,-1.48,0.803,0.801,3620,-99.83,-1.48,0,0.0,0.0,False
+crypto-80-88-12h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.88), ('hours_left', 12), ('lo', 0.8)]",195,-22.18,-0.1137,-1.48,0.821,0.844,142,-2.26,-0.2,53,-19.92,-2.12,False
+luck-21-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",850,-99.94,-0.1176,-1.49,0.538,0.544,850,-99.94,-1.49,0,0.0,0.0,False
+luck-93-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",882,-99.53,-0.1128,-1.49,0.551,0.552,882,-99.53,-1.49,0,0.0,0.0,False
+luck-07-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",831,-99.84,-0.1201,-1.5,0.535,0.548,831,-99.84,-1.5,0,0.0,0.0,False
+fx-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXUSDJPY', 'KXEURUSD'))]",19,-9.76,-0.5137,-1.5,0.579,0.764,13,-3.26,-0.61,6,-6.5,-1.76,False
+luck-13-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",838,-99.86,-0.1192,-1.51,0.531,0.554,838,-99.86,-1.51,0,0.0,0.0,False
+fav-80-90-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 24), ('lo', 0.8)]",4309,-99.2,-0.023,-1.51,0.854,0.852,4309,-99.2,-1.51,0,0.0,0.0,False
+finance-21-33-48h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.33), ('hours_left', 48), ('lo', 0.21)]",434,-99.85,-0.2301,-1.51,0.26,0.271,322,-56.11,-0.99,112,-43.74,-1.28,False
+nottop-k3-60-80-12h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.6), ('min_brackets', 3)]",1926,-99.91,-0.0519,-1.51,0.706,0.709,1926,-99.91,-1.51,0,0.0,0.0,False
+luck-78-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",786,-99.8,-0.127,-1.52,0.52,0.54,786,-99.8,-1.52,0,0.0,0.0,False
+noonly-other-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'no')]",1861,-99.98,-0.0537,-1.52,0.7,0.704,1860,-98.45,-1.49,1,-1.53,0.0,False
+noonly-other-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'no')]",3263,-100.0,-0.0306,-1.52,0.802,0.799,2761,-50.6,-0.84,502,-49.4,-1.85,False
+sports-45-55-6h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.55), ('hours_left', 6), ('lo', 0.45)]",616,-99.65,-0.1618,-1.53,0.463,0.476,616,-99.65,-1.53,0,0.0,0.0,False
+yesonly-finance-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'yes')]",283,-50.55,-0.1786,-1.53,0.58,0.597,164,-37.39,-1.5,119,-13.16,-0.6,False
+nottop-k3-60-80-48h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.6), ('min_brackets', 3)]",1842,-99.79,-0.0542,-1.54,0.704,0.708,1842,-99.79,-1.54,0,0.0,0.0,False
+fade-3h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 3), ('mode', 'fade'), ('move', 0.2)]",411,-99.64,-0.2424,-1.55,0.389,0.421,411,-99.64,-1.55,0,0.0,0.0,False
+other-45-55-6h-v1,live,Band,"[('cat', 'other'), ('hi', 0.55), ('hours_left', 6), ('lo', 0.45)]",616,-99.87,-0.1621,-1.56,0.461,0.478,616,-99.87,-1.56,0,0.0,0.0,False
+luck-33-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",747,-99.73,-0.1335,-1.56,0.534,0.551,747,-99.73,-1.56,0,0.0,0.0,False
+yesonly-sports-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'yes')]",3380,-99.28,-0.0294,-1.57,0.802,0.798,2640,-78.92,-1.4,740,-20.36,-0.71,False
+noonly-other-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'no')]",3169,-99.34,-0.0313,-1.57,0.8,0.799,2681,-56.11,-0.97,488,-43.23,-1.73,False
+noonly-finance-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'no')]",448,-35.07,-0.0783,-1.58,0.772,0.801,271,-33.45,-1.86,177,-1.62,-0.13,False
+fav-75-85-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75)]",3104,-99.32,-0.032,-1.59,0.801,0.801,3104,-99.32,-1.59,0,0.0,0.0,False
+liquid-65-75-v1000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 12), ('lo', 0.65), ('max_spread', 0.01), ('min_vol', 1000)]",1226,-99.9,-0.0815,-1.59,0.683,0.69,1226,-99.9,-1.59,0,0.0,0.0,False
+luck-31-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",797,-99.61,-0.125,-1.6,0.548,0.555,797,-99.61,-1.6,0,0.0,0.0,False
+luck-40-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",691,-99.91,-0.1446,-1.6,0.525,0.553,691,-99.91,-1.6,0,0.0,0.0,False
+luck-70-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",687,-99.78,-0.1452,-1.6,0.531,0.558,687,-99.78,-1.6,0,0.0,0.0,False
+yesonly-finance-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'yes')]",394,-34.7,-0.0881,-1.6,0.772,0.79,229,-15.11,-0.94,165,-19.59,-1.35,False
+trend-with-65-80-6h-m08-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 6), ('move', 0.08)]",1843,-99.76,-0.0541,-1.61,0.728,0.729,1843,-99.76,-1.61,0,0.0,0.0,False
+top-k3-60-80-12h-v1,new:EventTop,EventTop,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.6), ('min_brackets', 3)]",1532,-99.42,-0.0649,-1.61,0.696,0.698,1532,-99.42,-1.61,0,0.0,0.0,False
+luck-79-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",701,-99.93,-0.1426,-1.63,0.525,0.544,701,-99.93,-1.63,0,0.0,0.0,False
+follow-1h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 1), ('mode', 'follow'), ('move', 0.2)]",1019,-99.98,-0.0981,-1.63,0.655,0.665,1019,-99.98,-1.63,0,0.0,0.0,False
+fav-75-85-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 12), ('lo', 0.75)]",2961,-99.7,-0.0337,-1.65,0.801,0.801,2961,-99.7,-1.65,0,0.0,0.0,False
+luck-83-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",709,-99.65,-0.1406,-1.65,0.544,0.557,709,-99.65,-1.65,0,0.0,0.0,False
+soccer-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXEPL', 'KXUCL', 'KXLALIGA', 'KXSERIEA', 'KXBUNDESLIGA', 'KXLIGUE1', 'KXMLS'))]",1442,-84.99,-0.0589,-1.65,0.748,0.752,860,-77.66,-1.92,582,-7.33,-0.23,False
+clock-00-06-wkday-80-92-v1,new:Clock,Clock,"[('from_h', 0), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 6), ('weekend', False)]",2615,-82.97,-0.0317,-1.65,0.859,0.862,1875,-71.8,-1.67,740,-11.17,-0.43,False
+luck-24-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",621,-99.75,-0.1606,-1.67,0.517,0.554,621,-99.75,-1.67,0,0.0,0.0,False
+sports-21-33-6h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.33), ('hours_left', 6), ('lo', 0.21)]",236,-99.73,-0.4226,-1.67,0.229,0.268,236,-99.73,-1.67,0,0.0,0.0,False
+luck-48-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",766,-99.58,-0.13,-1.67,0.551,0.56,766,-99.58,-1.67,0,0.0,0.0,False
+clock-00-06-wkend-65-80-v1,new:Clock,Clock,"[('from_h', 0), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 6), ('weekend', True)]",1284,-91.99,-0.0716,-1.67,0.722,0.725,818,-43.33,-0.98,466,-48.66,-1.49,False
+clock-18-24-wkday-65-80-v1,new:Clock,Clock,"[('from_h', 18), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 24), ('weekend', False)]",1546,-99.49,-0.0644,-1.67,0.721,0.728,1546,-99.49,-1.67,0,0.0,0.0,False
+fav-75-85-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 2), ('lo', 0.75)]",2702,-99.39,-0.0368,-1.68,0.798,0.801,2702,-99.39,-1.68,0,0.0,0.0,False
+fav-75-85-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75)]",2826,-99.7,-0.0353,-1.68,0.801,0.801,2826,-99.7,-1.68,0,0.0,0.0,False
+luck-91-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",748,-99.96,-0.1336,-1.68,0.543,0.541,748,-99.96,-1.68,0,0.0,0.0,False
+trend-with-80-95-12h-m03-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 12), ('move', 0.03)]",4414,-99.45,-0.0225,-1.68,0.885,0.884,4414,-99.45,-1.68,0,0.0,0.0,False
+luck-89-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",672,-99.94,-0.1487,-1.69,0.53,0.55,672,-99.94,-1.69,0,0.0,0.0,False
+noonly-finance-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'no')]",447,-37.82,-0.0846,-1.69,0.772,0.801,272,-32.91,-1.83,175,-4.91,-0.37,False
+liquid-75-85-v10000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('max_spread', 0.03), ('min_vol', 10000)]",2728,-99.34,-0.0364,-1.69,0.801,0.8,2727,-98.57,-1.67,1,-0.77,0.0,False
+follow-12h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 12), ('mode', 'follow'), ('move', 0.2)]",1115,-99.72,-0.0894,-1.69,0.657,0.674,1115,-99.72,-1.69,0,0.0,0.0,False
+luck-15-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",649,-99.85,-0.1539,-1.7,0.533,0.553,649,-99.85,-1.7,0,0.0,0.0,False
+other-80-88-48h-v1,live,Band,"[('cat', 'other'), ('hi', 0.88), ('hours_left', 48), ('lo', 0.8)]",3410,-99.57,-0.0292,-1.7,0.838,0.84,2791,-49.73,-0.95,619,-49.84,-1.9,False
+soccer-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXEPL', 'KXUCL', 'KXLALIGA', 'KXSERIEA', 'KXBUNDESLIGA', 'KXLIGUE1', 'KXMLS'))]",1234,-80.31,-0.0651,-1.7,0.745,0.752,738,-66.56,-1.77,496,-13.75,-0.48,False
+luck-32-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",655,-99.87,-0.1525,-1.71,0.531,0.546,655,-99.87,-1.71,0,0.0,0.0,False
+noonly-any-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'no')]",843,-99.45,-0.118,-1.71,0.591,0.599,843,-99.45,-1.71,0,0.0,0.0,False
+soccer-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXEPL', 'KXUCL', 'KXLALIGA', 'KXSERIEA', 'KXBUNDESLIGA', 'KXLIGUE1', 'KXMLS'))]",1576,-68.98,-0.0438,-1.71,0.848,0.852,887,-72.55,-2.31,689,3.57,0.14,False
+luck-09-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",629,-99.67,-0.1585,-1.72,0.526,0.547,629,-99.67,-1.72,0,0.0,0.0,False
+yesonly-finance-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'yes')]",387,-37.11,-0.0959,-1.72,0.767,0.791,223,-19.66,-1.21,164,-17.45,-1.22,False
+noonly-other-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'no')]",2736,-99.98,-0.0365,-1.73,0.799,0.799,2419,-75.37,-1.38,317,-24.61,-1.34,False
+trend-with-80-95-2h-m03-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 2), ('move', 0.03)]",4107,-99.46,-0.0242,-1.74,0.882,0.884,4107,-99.46,-1.74,0,0.0,0.0,False
+luck-02-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",571,-99.91,-0.175,-1.75,0.522,0.553,571,-99.91,-1.75,0,0.0,0.0,False
+fav-80-85-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.8)]",2895,-99.7,-0.0344,-1.75,0.823,0.825,2895,-99.7,-1.75,0,0.0,0.0,False
+fav-85-95-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 2), ('lo', 0.85)]",4436,-99.67,-0.0225,-1.75,0.904,0.904,4436,-99.67,-1.75,0,0.0,0.0,False
+liquid-65-75-v10000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('max_spread', 0.01), ('min_vol', 10000)]",965,-99.84,-0.1035,-1.75,0.679,0.691,742,-51.57,-1.03,223,-48.27,-1.79,False
+trend-with-80-95-6h-m03-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 6), ('move', 0.03)]",4111,-99.84,-0.0243,-1.75,0.884,0.884,4111,-99.84,-1.75,0,0.0,0.0,False
+luck-46-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",617,-99.55,-0.1613,-1.76,0.533,0.545,617,-99.55,-1.76,0,0.0,0.0,False
+luck-80-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",616,-99.61,-0.1617,-1.76,0.523,0.543,616,-99.61,-1.76,0,0.0,0.0,False
+finance-70-78-4h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.78), ('hours_left', 4), ('lo', 0.7)]",348,-46.79,-0.1345,-1.77,0.707,0.738,195,-44.13,-2.14,153,-2.66,-0.16,False
+liquid-65-75-v10000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 12), ('lo', 0.65), ('max_spread', 0.03), ('min_vol', 10000)]",1048,-99.47,-0.0949,-1.77,0.683,0.699,1048,-99.47,-1.77,0,0.0,0.0,False
+other-33-45-6h-v1,live,Band,"[('cat', 'other'), ('hi', 0.45), ('hours_left', 6), ('lo', 0.33)]",352,-99.88,-0.2838,-1.78,0.358,0.393,352,-99.88,-1.78,0,0.0,0.0,False
+luck-60-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",620,-99.78,-0.1609,-1.78,0.556,0.558,620,-99.78,-1.78,0,0.0,0.0,False
+fade-6h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 6), ('mode', 'fade'), ('move', 0.1)]",384,-99.83,-0.26,-1.78,0.424,0.456,384,-99.83,-1.78,0,0.0,0.0,False
+liquid-65-75-v10000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 12), ('lo', 0.65), ('max_spread', 0.01), ('min_vol', 10000)]",912,-99.69,-0.1093,-1.79,0.678,0.69,694,-56.92,-1.17,218,-42.77,-1.57,False
+fav-80-85-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 12), ('lo', 0.8)]",2705,-99.33,-0.0367,-1.8,0.82,0.825,2705,-99.33,-1.8,0,0.0,0.0,False
+fav-80-85-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.8)]",2678,-99.44,-0.0371,-1.8,0.82,0.826,2678,-99.44,-1.8,0,0.0,0.0,False
+luck-90-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",643,-99.96,-0.1555,-1.8,0.546,0.553,643,-99.96,-1.8,0,0.0,0.0,False
+trend-with-80-95-2h-m08-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 2), ('move', 0.08)]",3782,-99.52,-0.0263,-1.8,0.883,0.884,3782,-99.52,-1.8,0,0.0,0.0,False
+yesonly-any-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'yes')]",3850,-99.88,-0.0259,-1.81,0.881,0.883,3103,-29.25,-0.6,747,-70.63,-2.72,False
+luck-04-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",622,-99.87,-0.1606,-1.82,0.548,0.561,622,-99.87,-1.82,0,0.0,0.0,False
+fav-85-90-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 2), ('lo', 0.85)]",3214,-99.19,-0.0309,-1.82,0.874,0.876,3214,-99.19,-1.82,0,0.0,0.0,False
+noonly-other-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'no')]",1225,-99.67,-0.0814,-1.82,0.694,0.704,1225,-99.67,-1.82,0,0.0,0.0,False
+mlb-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXMLB',))]",1225,-87.81,-0.0717,-1.82,0.728,0.749,1147,-82.08,-1.75,78,-5.73,-0.5,False
+noonly-finance-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'no')]",340,-32.22,-0.0948,-1.83,0.862,0.886,211,-31.17,-2.09,129,-1.05,-0.11,False
+fade-1h-m20-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 1), ('mode', 'fade'), ('move', 0.2)]",305,-99.81,-0.3272,-1.83,0.387,0.434,305,-99.81,-1.83,0,0.0,0.0,False
+yesonly-any-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'yes')]",3774,-99.86,-0.0265,-1.84,0.882,0.884,2847,-3.51,-0.08,927,-96.35,-3.25,False
+noonly-any-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'no')]",1143,-99.61,-0.0871,-1.84,0.689,0.702,1143,-99.61,-1.84,0,0.0,0.0,False
+soccer-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXEPL', 'KXUCL', 'KXLALIGA', 'KXSERIEA', 'KXBUNDESLIGA', 'KXLIGUE1', 'KXMLS'))]",1632,-57.46,-0.0352,-1.84,0.917,0.924,854,-36.7,-1.6,778,-20.76,-0.98,False
+luck-16-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",597,-99.94,-0.1674,-1.86,0.548,0.56,597,-99.94,-1.86,0,0.0,0.0,False
+fav-75-80-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 24), ('lo', 0.75)]",2097,-99.99,-0.0477,-1.86,0.773,0.775,2097,-99.99,-1.86,0,0.0,0.0,False
+luck-69-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",591,-99.92,-0.1691,-1.86,0.553,0.559,591,-99.92,-1.86,0,0.0,0.0,False
+luck-87-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",594,-99.85,-0.1681,-1.86,0.549,0.567,594,-99.85,-1.86,0,0.0,0.0,False
+yesonly-sports-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'yes')]",1005,-99.55,-0.0991,-1.86,0.685,0.698,1005,-99.55,-1.86,0,0.0,0.0,False
+noonly-any-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'no')]",693,-99.73,-0.1439,-1.86,0.586,0.599,693,-99.73,-1.86,0,0.0,0.0,False
+noonly-sports-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'no')]",743,-99.63,-0.1341,-1.86,0.577,0.598,743,-99.63,-1.86,0,0.0,0.0,False
+trend-with-65-80-12h-m08-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 12), ('move', 0.08)]",1347,-99.76,-0.0741,-1.86,0.722,0.728,1347,-99.76,-1.86,0,0.0,0.0,False
+luck-19-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",544,-99.68,-0.1832,-1.87,0.515,0.543,544,-99.68,-1.87,0,0.0,0.0,False
+noonly-sports-55-65-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.65), ('hours_left', 6), ('lo', 0.55), ('side', 'no')]",690,-100.0,-0.1449,-1.87,0.578,0.599,690,-100.0,-1.87,0,0.0,0.0,False
+liquid-75-85-v10000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 12), ('lo', 0.75), ('max_spread', 0.03), ('min_vol', 10000)]",2155,-99.94,-0.0464,-1.87,0.799,0.8,2155,-99.94,-1.87,0,0.0,0.0,False
+liquid-85-95-v100000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.85), ('max_spread', 0.01), ('min_vol', 100000)]",649,-42.87,-0.0661,-1.87,0.898,0.914,376,-33.02,-1.84,273,-9.86,-0.69,False
+fade-1h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 1), ('mode', 'fade'), ('move', 0.1)]",336,-99.51,-0.2962,-1.87,0.435,0.473,336,-99.51,-1.87,0,0.0,0.0,False
+clock-18-24-wkend-80-92-v1,new:Clock,Clock,"[('from_h', 18), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 24), ('weekend', True)]",1658,-76.56,-0.0462,-1.87,0.859,0.865,980,-30.92,-1.0,678,-45.64,-1.7,False
+fav-80-85-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.8)]",2391,-99.25,-0.0415,-1.89,0.821,0.825,2391,-99.25,-1.89,0,0.0,0.0,False
+fav-70-75-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 2), ('lo', 0.7)]",1025,-99.78,-0.0973,-1.9,0.712,0.726,1025,-99.78,-1.9,0,0.0,0.0,False
+other-80-88-12h-v1,live,Band,"[('cat', 'other'), ('hi', 0.88), ('hours_left', 12), ('lo', 0.8)]",2528,-99.76,-0.0395,-1.91,0.834,0.839,2528,-99.76,-1.91,0,0.0,0.0,False
+luck-86-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",515,-99.85,-0.1939,-1.91,0.52,0.546,515,-99.85,-1.91,0,0.0,0.0,False
+luck-97-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",534,-99.9,-0.1871,-1.91,0.537,0.553,534,-99.9,-1.91,0,0.0,0.0,False
+soccer-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXEPL', 'KXUCL', 'KXLALIGA', 'KXSERIEA', 'KXBUNDESLIGA', 'KXLIGUE1', 'KXMLS'))]",1344,-71.58,-0.0533,-1.91,0.842,0.851,800,-73.32,-2.43,544,1.74,0.08,False
+noonly-other-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'no')]",1010,-99.64,-0.0987,-1.92,0.69,0.704,1010,-99.64,-1.92,0,0.0,0.0,False
+liquid-75-85-v100000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 12), ('lo', 0.75), ('max_spread', 0.03), ('min_vol', 100000)]",1740,-95.22,-0.0547,-1.92,0.794,0.798,1057,-21.32,-0.56,683,-73.9,-2.33,False
+luck-25-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",501,-99.53,-0.1987,-1.93,0.525,0.554,501,-99.53,-1.93,0,0.0,0.0,False
+sports-80-88-12h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.88), ('hours_left', 12), ('lo', 0.8)]",2572,-99.93,-0.0389,-1.93,0.837,0.841,2572,-99.93,-1.93,0,0.0,0.0,False
+other-80-88-4h-v1,live,Band,"[('cat', 'other'), ('hi', 0.88), ('hours_left', 4), ('lo', 0.8)]",2360,-99.74,-0.0423,-1.93,0.836,0.84,2360,-99.74,-1.93,0,0.0,0.0,False
+nasdaq-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXNASDAQ',))]",98,-24.64,-0.2514,-1.93,0.663,0.757,53,-17.94,-1.87,45,-6.7,-0.79,False
+liquid-75-85-v1000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('max_spread', 0.03), ('min_vol', 1000)]",2103,-99.86,-0.0475,-1.94,0.796,0.8,2103,-99.86,-1.94,0,0.0,0.0,False
+sports-80-88-4h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.88), ('hours_left', 4), ('lo', 0.8)]",2378,-99.52,-0.0419,-1.95,0.834,0.841,2378,-99.52,-1.95,0,0.0,0.0,False
+weather-33-45-48h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.45), ('hours_left', 48), ('lo', 0.33)]",365,-99.96,-0.2739,-1.95,0.378,0.389,365,-99.96,-1.95,0,0.0,0.0,False
+luck-77-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",579,-99.99,-0.1727,-1.95,0.542,0.547,579,-99.99,-1.95,0,0.0,0.0,False
+noonly-any-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'no')]",650,-99.75,-0.1535,-1.95,0.586,0.599,650,-99.75,-1.95,0,0.0,0.0,False
+liquid-75-85-v100000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('max_spread', 0.03), ('min_vol', 100000)]",1697,-95.3,-0.0562,-1.95,0.793,0.798,1061,-19.15,-0.5,636,-76.15,-2.5,False
+liquid-85-95-v100000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.85), ('max_spread', 0.01), ('min_vol', 100000)]",641,-44.64,-0.0696,-1.95,0.897,0.913,372,-31.02,-1.75,269,-13.62,-0.94,False
+yesonly-crypto-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'crypto'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'yes')]",116,-18.85,-0.1625,-1.96,0.879,0.943,85,-13.48,-1.66,31,-5.37,-1.04,False
+fav-75-80-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.75)]",1852,-99.97,-0.054,-1.97,0.767,0.775,1852,-99.97,-1.97,0,0.0,0.0,False
+liquid-75-85-v1000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 12), ('lo', 0.75), ('max_spread', 0.03), ('min_vol', 1000)]",2014,-99.39,-0.0493,-1.97,0.793,0.8,2014,-99.39,-1.97,0,0.0,0.0,False
+fade-12h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 12), ('mode', 'fade'), ('move', 0.05)]",307,-99.7,-0.3248,-1.97,0.42,0.477,307,-99.7,-1.97,0,0.0,0.0,False
+liquid-65-75-v10000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('max_spread', 0.03), ('min_vol', 10000)]",875,-99.71,-0.114,-1.98,0.683,0.699,875,-99.71,-1.98,0,0.0,0.0,False
+clock-00-06-wkend-80-92-v1,new:Clock,Clock,"[('from_h', 0), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 6), ('weekend', True)]",1294,-72.41,-0.056,-1.98,0.852,0.862,819,-62.44,-2.08,475,-9.97,-0.48,False
+clock-06-12-wkday-80-92-v1,new:Clock,Clock,"[('from_h', 6), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 12), ('weekend', False)]",1373,-72.5,-0.0528,-1.98,0.849,0.858,970,-44.47,-1.44,403,-28.03,-1.41,False
+luck-66-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",474,-99.57,-0.2101,-1.99,0.521,0.544,474,-99.57,-1.99,0,0.0,0.0,False
+noonly-any-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'no')]",1997,-99.85,-0.05,-1.99,0.795,0.802,1997,-99.85,-1.99,0,0.0,0.0,False
+clock-00-06-wkday-65-80-v1,new:Clock,Clock,"[('from_h', 0), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 6), ('weekend', False)]",1048,-99.38,-0.0948,-2.0,0.71,0.725,1048,-99.38,-2.0,0,0.0,0.0,False
+luck-06-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",456,-99.72,-0.2187,-2.01,0.493,0.54,456,-99.72,-2.01,0,0.0,0.0,False
+yesonly-other-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'yes')]",1811,-99.67,-0.055,-2.01,0.793,0.801,1478,-76.51,-1.7,333,-23.16,-1.11,False
+fade-3h-m10-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 3), ('mode', 'fade'), ('move', 0.1)]",300,-99.77,-0.3326,-2.01,0.417,0.464,300,-99.77,-2.01,0,0.0,0.0,False
+yesonly-sports-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'yes')]",917,-99.97,-0.109,-2.02,0.679,0.697,917,-99.97,-2.02,0,0.0,0.0,False
+noonly-sports-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'no')]",606,-99.75,-0.1646,-2.02,0.576,0.597,606,-99.75,-2.02,0,0.0,0.0,False
+luck-62-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",452,-99.86,-0.2209,-2.03,0.507,0.544,452,-99.86,-2.03,0,0.0,0.0,False
+sports-70-78-4h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.78), ('hours_left', 4), ('lo', 0.7)]",1095,-99.57,-0.0909,-2.04,0.723,0.74,1095,-99.57,-2.04,0,0.0,0.0,False
+fade-6h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 6), ('mode', 'fade'), ('move', 0.05)]",296,-99.98,-0.3378,-2.04,0.422,0.479,296,-99.98,-2.04,0,0.0,0.0,False
+liquid-65-75-v1000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('max_spread', 0.03), ('min_vol', 1000)]",850,-99.44,-0.117,-2.05,0.679,0.7,850,-99.44,-2.05,0,0.0,0.0,False
+noonly-sports-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'no')]",890,-99.61,-0.1119,-2.06,0.685,0.701,890,-99.61,-2.06,0,0.0,0.0,False
+fav-85-90-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 6), ('lo', 0.85)]",2542,-99.16,-0.039,-2.07,0.871,0.876,2542,-99.16,-2.07,0,0.0,0.0,False
+yesonly-other-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'yes')]",1787,-99.54,-0.0557,-2.08,0.793,0.801,1559,-91.85,-2.02,228,-7.69,-0.51,False
+trend-with-65-80-12h-m03-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 12), ('move', 0.03)]",1042,-99.98,-0.096,-2.08,0.712,0.729,1042,-99.98,-2.08,0,0.0,0.0,False
+luck-08-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",466,-99.9,-0.2144,-2.09,0.509,0.55,466,-99.9,-2.09,0,0.0,0.0,False
+yesonly-any-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'yes')]",873,-99.67,-0.1142,-2.09,0.679,0.699,873,-99.67,-2.09,0,0.0,0.0,False
+noonly-any-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'no')]",828,-99.57,-0.1203,-2.09,0.681,0.703,828,-99.57,-2.09,0,0.0,0.0,False
+fade-1h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 1), ('mode', 'fade'), ('move', 0.05)]",279,-99.61,-0.357,-2.09,0.434,0.504,279,-99.61,-2.09,0,0.0,0.0,False
+weather-80-88-12h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.88), ('hours_left', 12), ('lo', 0.8)]",461,-51.07,-0.1108,-2.12,0.809,0.841,293,-21.01,-1.13,168,-30.06,-1.96,False
+luck-88-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",421,-99.78,-0.237,-2.12,0.496,0.538,421,-99.78,-2.12,0,0.0,0.0,False
+yesonly-sports-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'yes')]",811,-99.51,-0.1227,-2.12,0.681,0.697,811,-99.51,-2.12,0,0.0,0.0,False
+liquid-85-95-v1000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.85), ('max_spread', 0.03), ('min_vol', 1000)]",3036,-99.36,-0.0327,-2.12,0.901,0.905,3036,-99.36,-2.12,0,0.0,0.0,False
+fav-65-70-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.7), ('hours_left', 48), ('lo', 0.65)]",696,-99.8,-0.1434,-2.13,0.654,0.675,696,-99.8,-2.13,0,0.0,0.0,False
+noonly-sports-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'no')]",785,-99.49,-0.1267,-2.13,0.685,0.701,785,-99.49,-2.13,0,0.0,0.0,False
+liquid-75-85-v10000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('max_spread', 0.01), ('min_vol', 10000)]",1578,-99.99,-0.0634,-2.13,0.793,0.803,996,-52.69,-1.41,582,-47.3,-1.66,False
+trend-with-80-95-6h-m08-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 6), ('move', 0.08)]",2740,-99.71,-0.0364,-2.13,0.879,0.884,2740,-99.71,-2.13,0,0.0,0.0,False
+luck-55-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",433,-99.71,-0.2303,-2.14,0.501,0.551,433,-99.71,-2.14,0,0.0,0.0,False
+fav-70-80-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.7)]",1098,-99.83,-0.0909,-2.15,0.737,0.75,1098,-99.83,-2.15,0,0.0,0.0,False
+fav-85-95-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 6), ('lo', 0.85)]",3026,-99.61,-0.0329,-2.15,0.903,0.904,3026,-99.61,-2.15,0,0.0,0.0,False
+fav-85-95-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 12), ('lo', 0.85)]",3030,-99.86,-0.033,-2.15,0.902,0.905,3030,-99.86,-2.15,0,0.0,0.0,False
+fav-85-95-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.85)]",3014,-99.16,-0.0329,-2.15,0.9,0.905,3014,-99.16,-2.15,0,0.0,0.0,False
+finance-80-88-48h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.88), ('hours_left', 48), ('lo', 0.8)]",486,-48.21,-0.0992,-2.15,0.809,0.839,287,-30.97,-1.78,199,-17.24,-1.21,False
+yesonly-any-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'yes')]",2532,-99.21,-0.0392,-2.15,0.88,0.883,2532,-99.21,-2.15,0,0.0,0.0,False
+noonly-any-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'no')]",1652,-99.4,-0.0602,-2.15,0.79,0.801,1652,-99.4,-2.15,0,0.0,0.0,False
+favorite-v1,live,Favorite,"[('hours_left', 24), ('max_ask', 0.95), ('min_ask', 0.85)]",3029,-99.26,-0.0328,-2.16,0.9,0.905,3029,-99.26,-2.16,0,0.0,0.0,False
+fav-85-95-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 24), ('lo', 0.85)]",3029,-99.26,-0.0328,-2.16,0.9,0.905,3029,-99.26,-2.16,0,0.0,0.0,False
+luck-85-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",446,-99.75,-0.2237,-2.16,0.504,0.547,446,-99.75,-2.16,0,0.0,0.0,False
+esports-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXCS2', 'KXLOL', 'KXVALORANT', 'KXDOTA'))]",976,-73.61,-0.0754,-2.16,0.837,0.847,641,-29.11,-1.07,335,-44.5,-2.15,False
+noonly-any-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'no')]",790,-99.9,-0.1265,-2.17,0.681,0.703,790,-99.9,-2.17,0,0.0,0.0,False
+noonly-finance-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'no')]",337,-39.58,-0.1174,-2.18,0.858,0.887,209,-37.31,-2.45,128,-2.27,-0.23,False
+nottop-k5-60-80-12h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.6), ('min_brackets', 5)]",877,-99.95,-0.114,-2.18,0.686,0.702,877,-99.95,-2.18,0,0.0,0.0,False
+fav-70-80-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 24), ('lo', 0.7)]",1028,-99.39,-0.0967,-2.19,0.736,0.751,1028,-99.39,-2.19,0,0.0,0.0,False
+fx-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXUSDJPY', 'KXEURUSD'))]",29,-14.86,-0.5124,-2.19,0.655,0.847,18,-7.72,-1.49,11,-7.14,-1.57,False
+sports-70-78-48h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.78), ('hours_left', 48), ('lo', 0.7)]",1000,-99.69,-0.0997,-2.2,0.722,0.74,1000,-99.69,-2.2,0,0.0,0.0,False
+fav-70-80-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 6), ('lo', 0.7)]",990,-99.33,-0.1003,-2.21,0.732,0.75,990,-99.33,-2.21,0,0.0,0.0,False
+luck-53-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",414,-99.8,-0.2411,-2.21,0.505,0.559,414,-99.8,-2.21,0,0.0,0.0,False
+nottop-k5-60-80-48h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.6), ('min_brackets', 5)]",895,-99.58,-0.1113,-2.21,0.684,0.702,895,-99.58,-2.21,0,0.0,0.0,False
+weather-45-55-48h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.55), ('hours_left', 48), ('lo', 0.45)]",344,-99.9,-0.2904,-2.22,0.424,0.473,344,-99.9,-2.22,0,0.0,0.0,False
+noonly-other-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'no')]",549,-99.88,-0.1819,-2.22,0.576,0.603,549,-99.88,-2.22,0,0.0,0.0,False
+crypto-21-33-48h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.33), ('hours_left', 48), ('lo', 0.21)]",166,-99.97,-0.6022,-2.23,0.205,0.265,155,-76.39,-1.72,11,-23.58,-6.94,False
+liquid-85-95-v1000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.85), ('max_spread', 0.03), ('min_vol', 1000)]",2698,-99.53,-0.0369,-2.23,0.899,0.904,2698,-99.53,-2.23,0,0.0,0.0,False
+nhl-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXNHL',))]",764,-84.29,-0.1103,-2.23,0.709,0.749,360,-54.84,-2.06,404,-29.45,-1.09,False
+sports-70-78-12h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.78), ('hours_left', 12), ('lo', 0.7)]",934,-99.58,-0.1066,-2.24,0.717,0.74,934,-99.58,-2.24,0,0.0,0.0,False
+yesonly-other-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'yes')]",1480,-99.81,-0.0674,-2.24,0.793,0.8,1475,-98.66,-2.21,5,-1.15,-0.43,False
+noonly-sports-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'no')]",1529,-99.58,-0.0651,-2.24,0.787,0.801,1529,-99.58,-2.24,0,0.0,0.0,False
+trend-with-65-80-2h-m08-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 2), ('move', 0.08)]",867,-99.64,-0.1149,-2.25,0.705,0.73,867,-99.64,-2.25,0,0.0,0.0,False
+trend-against-80-95-12h-m03-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 12), ('move', 0.03)]",2182,-99.43,-0.0456,-2.25,0.852,0.862,1996,-78.24,-1.86,186,-21.19,-1.6,False
+noonly-sports-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'no')]",733,-99.46,-0.1357,-2.26,0.679,0.702,733,-99.46,-2.26,0,0.0,0.0,False
+liquid-65-75-v1000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('max_spread', 0.01), ('min_vol', 1000)]",607,-99.85,-0.1645,-2.26,0.669,0.691,607,-99.85,-2.26,0,0.0,0.0,False
+fav-70-80-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 12), ('lo', 0.7)]",940,-99.4,-0.1057,-2.27,0.733,0.75,940,-99.4,-2.27,0,0.0,0.0,False
+sports-80-88-48h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.88), ('hours_left', 48), ('lo', 0.8)]",1773,-99.76,-0.0563,-2.27,0.83,0.841,1773,-99.76,-2.27,0,0.0,0.0,False
+luck-68-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",411,-99.66,-0.2425,-2.27,0.518,0.547,411,-99.66,-2.27,0,0.0,0.0,False
+fav-65-70-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.7), ('hours_left', 12), ('lo', 0.65)]",610,-99.61,-0.1633,-2.28,0.649,0.674,610,-99.61,-2.28,0,0.0,0.0,False
+sports-88-96-12h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.96), ('hours_left', 12), ('lo', 0.88)]",3257,-99.27,-0.0305,-2.28,0.917,0.923,3203,-88.83,-2.07,54,-10.44,-1.46,False
+weather-80-88-48h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.88), ('hours_left', 48), ('lo', 0.8)]",922,-70.73,-0.0767,-2.28,0.815,0.838,588,-30.04,-1.25,334,-40.69,-2.09,False
+yesonly-finance-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'yes')]",295,-64.47,-0.2185,-2.29,0.654,0.704,169,-41.75,-1.95,126,-22.72,-1.24,False
+yesonly-any-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'yes')]",690,-99.67,-0.1444,-2.29,0.675,0.699,690,-99.67,-2.29,0,0.0,0.0,False
+luck-17-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",368,-99.56,-0.2705,-2.3,0.522,0.551,368,-99.56,-2.3,0,0.0,0.0,False
+luck-75-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",375,-99.78,-0.2661,-2.3,0.504,0.558,375,-99.78,-2.3,0,0.0,0.0,False
+liquid-75-85-v1000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 12), ('lo', 0.75), ('max_spread', 0.01), ('min_vol', 1000)]",1417,-99.58,-0.0703,-2.3,0.788,0.804,1417,-99.58,-2.3,0,0.0,0.0,False
+fav-65-70-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.7), ('hours_left', 6), ('lo', 0.65)]",597,-99.85,-0.1673,-2.31,0.638,0.674,597,-99.85,-2.31,0,0.0,0.0,False
+fav-65-75-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65)]",682,-99.9,-0.1465,-2.31,0.676,0.703,682,-99.9,-2.31,0,0.0,0.0,False
+luck-18-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",342,-99.85,-0.292,-2.32,0.488,0.54,342,-99.85,-2.32,0,0.0,0.0,False
+sports-88-96-48h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.96), ('hours_left', 48), ('lo', 0.88)]",3141,-99.35,-0.0316,-2.32,0.916,0.923,3141,-99.35,-2.32,0,0.0,0.0,False
+luck-37-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",353,-99.77,-0.2826,-2.32,0.507,0.539,353,-99.77,-2.32,0,0.0,0.0,False
+yesonly-finance-75-85-6h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.85), ('hours_left', 6), ('lo', 0.75), ('side', 'yes')]",329,-48.31,-0.1468,-2.32,0.745,0.797,193,-34.1,-2.16,136,-14.21,-1.04,False
+liquid-75-85-v10000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 12), ('lo', 0.75), ('max_spread', 0.01), ('min_vol', 10000)]",1307,-99.75,-0.0763,-2.32,0.79,0.804,934,-59.53,-1.63,373,-40.22,-1.75,False
+trend-against-80-95-6h-m03-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 6), ('move', 0.03)]",2071,-99.54,-0.0481,-2.32,0.852,0.862,1914,-81.66,-1.98,157,-17.88,-1.5,False
+luck-28-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",396,-99.74,-0.2519,-2.33,0.53,0.544,396,-99.74,-2.33,0,0.0,0.0,False
+fav-70-75-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.7)]",698,-99.44,-0.1425,-2.33,0.705,0.725,698,-99.44,-2.33,0,0.0,0.0,False
+luck-95-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",405,-99.85,-0.2465,-2.33,0.509,0.54,405,-99.85,-2.33,0,0.0,0.0,False
+nba-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXNBA',))]",695,-84.85,-0.1221,-2.33,0.717,0.747,97,-15.48,-1.09,598,-69.37,-2.07,False
+fav-85-90-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 12), ('lo', 0.85)]",1906,-99.23,-0.0521,-2.34,0.867,0.875,1906,-99.23,-2.34,0,0.0,0.0,False
+clock-12-18-wkday-80-92-v1,new:Clock,Clock,"[('from_h', 12), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 18), ('weekend', False)]",1781,-99.68,-0.056,-2.35,0.85,0.861,1384,-58.96,-1.6,397,-40.72,-1.92,False
+yesonly-sports-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'yes')]",2689,-83.07,-0.0309,-2.36,0.938,0.945,1632,-14.86,-0.57,1057,-68.21,-2.85,False
+yesonly-any-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'yes')]",617,-99.61,-0.1614,-2.37,0.676,0.7,617,-99.61,-2.37,0,0.0,0.0,False
+fav-90-97-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 2), ('lo', 0.9)]",3409,-99.99,-0.0293,-2.39,0.933,0.939,3409,-99.99,-2.39,0,0.0,0.0,False
+luck-34-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",338,-99.9,-0.2956,-2.39,0.485,0.54,338,-99.9,-2.39,0,0.0,0.0,False
+luck-96-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",365,-99.51,-0.2726,-2.39,0.512,0.551,365,-99.51,-2.39,0,0.0,0.0,False
+noonly-any-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'no')]",1320,-99.36,-0.0753,-2.39,0.786,0.801,1320,-99.36,-2.39,0,0.0,0.0,False
+noonly-other-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'no')]",2069,-99.17,-0.0479,-2.4,0.882,0.886,1895,-86.75,-2.18,174,-12.42,-1.09,False
+esports-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXCS2', 'KXLOL', 'KXVALORANT', 'KXDOTA'))]",986,-83.61,-0.0848,-2.4,0.833,0.847,660,-41.37,-1.47,326,-42.24,-2.06,False
+fav-85-90-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 24), ('lo', 0.85)]",1827,-99.24,-0.0543,-2.41,0.867,0.875,1827,-99.24,-2.41,0,0.0,0.0,False
+weather-70-78-48h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.78), ('hours_left', 48), ('lo', 0.7)]",700,-89.94,-0.1285,-2.41,0.72,0.737,472,-77.56,-2.5,228,-12.38,-0.6,False
+yesonly-other-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'yes')]",722,-100.0,-0.1385,-2.41,0.675,0.7,722,-100.0,-2.41,0,0.0,0.0,False
+noonly-other-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'no')]",468,-99.52,-0.2126,-2.41,0.566,0.603,468,-99.52,-2.41,0,0.0,0.0,False
+mlb-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXMLB',))]",1274,-86.8,-0.0681,-2.42,0.83,0.852,1179,-83.78,-2.42,95,-3.02,-0.32,False
+luck-27-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",368,-99.79,-0.2712,-2.44,0.514,0.553,368,-99.79,-2.44,0,0.0,0.0,False
+fav-65-70-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.7), ('hours_left', 24), ('lo', 0.65)]",531,-99.95,-0.1882,-2.44,0.644,0.674,531,-99.95,-2.44,0,0.0,0.0,False
+fav-70-75-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.7)]",674,-99.69,-0.1479,-2.44,0.708,0.727,674,-99.69,-2.44,0,0.0,0.0,False
+fav-70-80-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 2), ('lo', 0.7)]",766,-99.33,-0.1297,-2.44,0.726,0.751,766,-99.33,-2.44,0,0.0,0.0,False
+fav-85-90-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.9), ('hours_left', 48), ('lo', 0.85)]",1783,-99.77,-0.056,-2.44,0.866,0.875,1783,-99.77,-2.44,0,0.0,0.0,False
+noonly-other-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'no')]",1940,-99.24,-0.0512,-2.44,0.876,0.887,1940,-99.24,-2.44,0,0.0,0.0,False
+fav-65-70-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.7), ('hours_left', 2), ('lo', 0.65)]",466,-99.39,-0.2133,-2.45,0.639,0.675,466,-99.39,-2.45,0,0.0,0.0,False
+yesonly-sports-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'yes')]",2836,-89.07,-0.0314,-2.45,0.938,0.945,1735,-13.65,-0.51,1101,-75.42,-3.06,False
+nottop-k3-40-60-48h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.6), ('hours_left', 48), ('lo', 0.4), ('min_brackets', 3)]",295,-99.56,-0.3375,-2.45,0.451,0.506,295,-99.56,-2.45,0,0.0,0.0,False
+noonly-sports-75-85-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.85), ('hours_left', 24), ('lo', 0.75), ('side', 'no')]",1285,-99.42,-0.0774,-2.46,0.784,0.802,1285,-99.42,-2.46,0,0.0,0.0,False
+luck-50-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",335,-99.61,-0.2973,-2.49,0.513,0.557,335,-99.61,-2.49,0,0.0,0.0,False
+yesonly-any-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'yes')]",3711,-97.71,-0.0263,-2.49,0.94,0.946,2631,-56.53,-1.71,1080,-41.18,-1.96,False
+trend-against-80-95-12h-m08-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 12), ('move', 0.08)]",1355,-99.41,-0.0734,-2.5,0.821,0.838,1165,-68.51,-1.86,190,-30.9,-2.05,False
+fav-70-75-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.7)]",632,-99.57,-0.1575,-2.52,0.695,0.726,632,-99.57,-2.52,0,0.0,0.0,False
+fav-90-95-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 6), ('lo', 0.9)]",2597,-99.68,-0.0384,-2.53,0.921,0.928,2597,-99.68,-2.53,0,0.0,0.0,False
+yesonly-any-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'yes')]",3729,-99.74,-0.0267,-2.53,0.94,0.946,2764,-74.81,-2.17,965,-24.93,-1.3,False
+trend-with-80-95-12h-m08-v1,new:Trend,Trend,"[('dir', 'with'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 12), ('move', 0.08)]",1808,-99.92,-0.0553,-2.53,0.873,0.885,1808,-99.92,-2.53,0,0.0,0.0,False
+other-45-55-48h-v1,live,Band,"[('cat', 'other'), ('hi', 0.55), ('hours_left', 48), ('lo', 0.45)]",292,-99.95,-0.3423,-2.54,0.418,0.478,292,-99.95,-2.54,0,0.0,0.0,False
+luck-61-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",298,-99.66,-0.3344,-2.54,0.497,0.564,298,-99.66,-2.54,0,0.0,0.0,False
+liquid-65-75-v1000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 12), ('lo', 0.65), ('max_spread', 0.03), ('min_vol', 1000)]",539,-99.92,-0.1854,-2.54,0.664,0.701,539,-99.92,-2.54,0,0.0,0.0,False
+nba-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXNBA',))]",650,-68.09,-0.1048,-2.54,0.831,0.853,87,-32.7,-2.74,563,-35.39,-1.48,False
+fade-3h-m05-v1,new:Mover,Mover,"[('hi', 0.85), ('lo', 0.25), ('lookback_h', 3), ('mode', 'fade'), ('move', 0.05)]",189,-99.81,-0.5281,-2.54,0.376,0.472,189,-99.81,-2.54,0,0.0,0.0,False
+fav-90-95-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 24), ('lo', 0.9)]",2585,-99.13,-0.0383,-2.55,0.921,0.928,2585,-99.13,-2.55,0,0.0,0.0,False
+luck-35-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",334,-99.56,-0.2981,-2.55,0.485,0.546,334,-99.56,-2.55,0,0.0,0.0,False
+luck-71-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",327,-99.78,-0.3051,-2.56,0.498,0.549,327,-99.78,-2.56,0,0.0,0.0,False
+esports-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXCS2', 'KXLOL', 'KXVALORANT', 'KXDOTA'))]",696,-99.43,-0.1429,-2.56,0.724,0.748,696,-99.43,-2.56,0,0.0,0.0,False
+fav-90-95-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.9)]",2568,-99.31,-0.0387,-2.57,0.92,0.928,2568,-99.31,-2.57,0,0.0,0.0,False
+yesonly-any-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'yes')]",3232,-99.52,-0.0308,-2.57,0.938,0.946,2879,-86.7,-2.36,353,-12.82,-1.05,False
+trend-against-80-95-2h-m08-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 2), ('move', 0.08)]",1235,-99.39,-0.0805,-2.57,0.822,0.839,1092,-70.96,-1.97,143,-28.43,-2.01,False
+nba-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXNBA',))]",669,-57.26,-0.0856,-2.58,0.897,0.921,67,-0.66,-0.1,602,-56.6,-2.66,False
+trend-against-80-95-2h-m03-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 2), ('move', 0.03)]",1558,-99.8,-0.0641,-2.58,0.849,0.863,1558,-99.8,-2.58,0,0.0,0.0,False
+fav-90-95-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 2), ('lo', 0.9)]",2412,-99.96,-0.0414,-2.59,0.919,0.928,2412,-99.96,-2.59,0,0.0,0.0,False
+fav-75-80-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 12), ('lo', 0.75)]",1009,-99.82,-0.0989,-2.6,0.751,0.775,1009,-99.82,-2.6,0,0.0,0.0,False
+fav-75-80-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 6), ('lo', 0.75)]",982,-99.74,-0.1016,-2.61,0.745,0.775,982,-99.74,-2.61,0,0.0,0.0,False
+fav-90-95-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.95), ('hours_left', 12), ('lo', 0.9)]",2490,-99.32,-0.0399,-2.61,0.918,0.928,2490,-99.32,-2.61,0,0.0,0.0,False
+noonly-other-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'no')]",1545,-99.18,-0.0642,-2.61,0.872,0.887,1545,-99.18,-2.61,0,0.0,0.0,False
+esports-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXCS2', 'KXLOL', 'KXVALORANT', 'KXDOTA'))]",703,-63.68,-0.0906,-2.62,0.89,0.914,483,-44.2,-2.2,220,-19.48,-1.41,False
+yesonly-other-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'yes')]",517,-99.97,-0.1934,-2.63,0.665,0.7,517,-99.97,-2.63,0,0.0,0.0,False
+yesonly-sports-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'yes')]",2668,-94.39,-0.0354,-2.63,0.938,0.945,1821,-44.11,-1.52,847,-50.28,-2.39,False
+noonly-finance-65-75-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65), ('side', 'no')]",360,-79.76,-0.2216,-2.63,0.65,0.703,216,-60.57,-2.51,144,-19.19,-1.05,False
+nba-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXNBA',))]",768,-75.54,-0.0984,-2.63,0.831,0.853,92,-28.4,-2.42,676,-47.14,-1.8,False
+clock-18-24-wkday-80-92-v1,new:Clock,Clock,"[('from_h', 18), ('hi', 0.92), ('hours_left', 24), ('lo', 0.8), ('to_h', 24), ('weekend', False)]",1367,-99.88,-0.0731,-2.63,0.848,0.863,1367,-99.88,-2.63,0,0.0,0.0,False
+luck-64-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",280,-99.73,-0.3562,-2.64,0.471,0.533,280,-99.73,-2.64,0,0.0,0.0,False
+liquid-75-85-v1000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('max_spread', 0.01), ('min_vol', 1000)]",1129,-99.55,-0.0882,-2.64,0.785,0.803,1129,-99.55,-2.64,0,0.0,0.0,False
+nottop-k3-40-60-12h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.6), ('hours_left', 12), ('lo', 0.4), ('min_brackets', 3)]",250,-99.68,-0.3987,-2.65,0.424,0.506,250,-99.68,-2.65,0,0.0,0.0,False
+nba-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXNBA',))]",685,-94.79,-0.1384,-2.66,0.721,0.749,91,-19.65,-1.38,594,-75.14,-2.3,False
+other-88-96-4h-v1,live,Band,"[('cat', 'other'), ('hi', 0.96), ('hours_left', 4), ('lo', 0.88)]",2154,-99.31,-0.0461,-2.67,0.913,0.924,2154,-99.31,-2.67,0,0.0,0.0,False
+finance-70-78-12h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.78), ('hours_left', 12), ('lo', 0.7)]",453,-78.03,-0.1723,-2.68,0.7,0.741,265,-63.89,-2.79,188,-14.14,-0.78,False
+nhl-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXNHL',))]",717,-99.3,-0.1385,-2.68,0.707,0.748,369,-45.78,-1.72,348,-53.52,-2.07,False
+fav-90-97-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.9)]",2637,-99.23,-0.0376,-2.69,0.93,0.939,2637,-99.23,-2.69,0,0.0,0.0,False
+luck-99-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",292,-99.64,-0.3412,-2.69,0.497,0.553,292,-99.64,-2.69,0,0.0,0.0,False
+nottop-k5-40-60-48h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.6), ('hours_left', 48), ('lo', 0.4), ('min_brackets', 5)]",242,-99.52,-0.4112,-2.69,0.43,0.506,242,-99.52,-2.69,0,0.0,0.0,False
+noonly-sports-75-85-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.85), ('hours_left', 48), ('lo', 0.75), ('side', 'no')]",1033,-99.81,-0.0966,-2.7,0.777,0.801,1033,-99.81,-2.7,0,0.0,0.0,False
+trend-against-80-95-6h-m08-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('lookback_h', 6), ('move', 0.08)]",1153,-99.78,-0.0865,-2.7,0.82,0.839,1136,-98.32,-2.68,17,-1.46,-0.37,False
+fav-90-97-48h-v1,live,Band,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.9)]",2633,-99.2,-0.0377,-2.71,0.931,0.939,2633,-99.2,-2.71,0,0.0,0.0,False
+nba-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXNBA',))]",751,-62.69,-0.0835,-2.71,0.9,0.921,71,1.15,0.2,680,-63.84,-2.85,False
+fav-90-97-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.9)]",2638,-99.75,-0.0378,-2.72,0.931,0.939,2638,-99.75,-2.72,0,0.0,0.0,False
+fav-65-75-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 12), ('lo', 0.65)]",467,-99.51,-0.2131,-2.73,0.66,0.703,467,-99.51,-2.73,0,0.0,0.0,False
+fav-70-75-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 12), ('lo', 0.7)]",537,-99.97,-0.1862,-2.73,0.683,0.726,537,-99.97,-2.73,0,0.0,0.0,False
+fav-90-97-12h-v1,live,Band,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 12), ('lo', 0.9)]",2592,-99.23,-0.0383,-2.73,0.93,0.939,2592,-99.23,-2.73,0,0.0,0.0,False
+sports-88-96-4h-v1,live,Band,"[('cat', 'sports'), ('hi', 0.96), ('hours_left', 4), ('lo', 0.88)]",1948,-99.4,-0.051,-2.74,0.912,0.922,1948,-99.4,-2.74,0,0.0,0.0,False
+liquid-85-95-v1000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.85), ('max_spread', 0.01), ('min_vol', 1000)]",1866,-99.72,-0.0534,-2.74,0.9,0.913,1866,-99.72,-2.74,0,0.0,0.0,False
+tennis-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXATP', 'KXWTA'))]",1128,-99.67,-0.0884,-2.74,0.827,0.848,974,-72.04,-2.14,154,-27.63,-2.0,False
+nottop-k3-80-95-48h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('min_brackets', 3)]",1551,-99.98,-0.0645,-2.75,0.869,0.883,1551,-99.98,-2.75,0,0.0,0.0,False
+nottop-k5-80-95-12h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.8), ('min_brackets', 5)]",1588,-99.21,-0.0625,-2.75,0.875,0.889,1588,-99.21,-2.75,0,0.0,0.0,False
+fav-65-75-24h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 24), ('lo', 0.65)]",463,-99.87,-0.2157,-2.76,0.657,0.704,463,-99.87,-2.76,0,0.0,0.0,False
+crypto-45-55-48h-v1,live,Band,"[('cat', 'crypto'), ('hi', 0.55), ('hours_left', 48), ('lo', 0.45)]",145,-81.95,-0.5652,-2.76,0.366,0.476,102,-64.01,-2.58,43,-17.94,-1.1,False
+weather-70-78-12h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.78), ('hours_left', 12), ('lo', 0.7)]",377,-85.95,-0.228,-2.76,0.687,0.737,228,-30.0,-1.26,149,-55.95,-2.8,False
+fav-65-75-6h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65)]",454,-99.96,-0.2202,-2.77,0.663,0.703,454,-99.96,-2.77,0,0.0,0.0,False
+luck-43-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",322,-99.75,-0.3098,-2.77,0.519,0.557,322,-99.75,-2.77,0,0.0,0.0,False
+yesonly-other-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'yes')]",1315,-99.22,-0.0755,-2.77,0.868,0.885,1064,-71.63,-2.24,251,-27.59,-1.73,False
+nottop-k5-80-95-48h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.8), ('min_brackets', 5)]",1543,-99.51,-0.0645,-2.77,0.875,0.888,1543,-99.51,-2.77,0,0.0,0.0,False
+other-88-96-12h-v1,live,Band,"[('cat', 'other'), ('hi', 0.96), ('hours_left', 12), ('lo', 0.88)]",2049,-99.14,-0.0484,-2.78,0.914,0.924,2049,-99.14,-2.78,0,0.0,0.0,False
+tennis-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXATP', 'KXWTA'))]",1081,-99.72,-0.0922,-2.78,0.827,0.848,962,-68.74,-2.06,119,-30.98,-2.41,False
+esports-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXCS2', 'KXLOL', 'KXVALORANT', 'KXDOTA'))]",593,-99.52,-0.1678,-2.78,0.718,0.748,593,-99.52,-2.78,0,0.0,0.0,False
+esports-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXCS2', 'KXLOL', 'KXVALORANT', 'KXDOTA'))]",712,-69.49,-0.0976,-2.79,0.888,0.913,487,-45.43,-2.23,225,-24.06,-1.68,False
+fav-65-75-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.75), ('hours_left', 2), ('lo', 0.65)]",410,-99.97,-0.2438,-2.8,0.651,0.703,410,-99.97,-2.8,0,0.0,0.0,False
+fav-75-80-2h-v1,live,Band,"[('cat', 'any'), ('hi', 0.8), ('hours_left', 2), ('lo', 0.75)]",784,-99.8,-0.1273,-2.81,0.741,0.775,784,-99.8,-2.81,0,0.0,0.0,False
+yesonly-other-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'yes')]",1286,-99.17,-0.0771,-2.86,0.864,0.885,1182,-89.64,-2.67,104,-9.53,-1.09,False
+yesonly-other-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'yes')]",1277,-99.69,-0.0781,-2.87,0.866,0.884,1188,-88.92,-2.64,89,-10.77,-1.24,False
+noonly-other-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'no')]",2487,-99.32,-0.0399,-2.87,0.938,0.946,2212,-78.11,-2.4,275,-21.21,-1.84,False
+clock-06-12-wkday-65-80-v1,new:Clock,Clock,"[('from_h', 6), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 12), ('weekend', False)]",504,-99.99,-0.1984,-2.87,0.673,0.724,504,-99.99,-2.87,0,0.0,0.0,False
+luck-84-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",265,-99.71,-0.3763,-2.88,0.457,0.552,265,-99.71,-2.88,0,0.0,0.0,False
+other-88-96-48h-v1,live,Band,"[('cat', 'other'), ('hi', 0.96), ('hours_left', 48), ('lo', 0.88)]",1983,-100.0,-0.0504,-2.89,0.914,0.925,1983,-100.0,-2.89,0,0.0,0.0,False
+tennis-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXATP', 'KXWTA'))]",527,-99.73,-0.1892,-2.9,0.712,0.748,527,-99.73,-2.9,0,0.0,0.0,False
+trend-against-65-80-12h-m03-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 12), ('move', 0.03)]",528,-99.88,-0.1892,-2.9,0.672,0.722,528,-99.88,-2.9,0,0.0,0.0,False
+luck-57-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",266,-99.67,-0.3747,-2.91,0.492,0.553,266,-99.67,-2.91,0,0.0,0.0,False
+tennis-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXATP', 'KXWTA'))]",512,-99.9,-0.1951,-2.95,0.709,0.747,512,-99.9,-2.95,0,0.0,0.0,False
+trend-against-65-80-2h-m03-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 2), ('move', 0.03)]",491,-99.74,-0.2031,-2.95,0.674,0.721,491,-99.74,-2.95,0,0.0,0.0,False
+liquid-85-95-v10000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.85), ('max_spread', 0.03), ('min_vol', 10000)]",1323,-99.82,-0.0755,-2.97,0.884,0.903,1323,-99.82,-2.97,0,0.0,0.0,False
+noonly-any-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'no')]",2366,-99.35,-0.042,-3.0,0.937,0.947,2366,-99.35,-3.0,0,0.0,0.0,False
+liquid-65-75-v100000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 12), ('lo', 0.65), ('max_spread', 0.03), ('min_vol', 100000)]",327,-99.36,-0.3039,-3.01,0.63,0.7,327,-99.36,-3.01,0,0.0,0.0,False
+nottop-k3-80-95-12h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.8), ('min_brackets', 3)]",1169,-99.38,-0.085,-3.01,0.866,0.883,1169,-99.38,-3.01,0,0.0,0.0,False
+liquid-85-95-v10000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.85), ('max_spread', 0.03), ('min_vol', 10000)]",1262,-99.18,-0.0786,-3.03,0.881,0.902,1262,-99.18,-3.03,0,0.0,0.0,False
+liquid-65-75-v100000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('max_spread', 0.03), ('min_vol', 100000)]",326,-99.89,-0.3064,-3.04,0.632,0.699,326,-99.89,-3.04,0,0.0,0.0,False
+noonly-any-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'no')]",2225,-99.75,-0.0448,-3.05,0.935,0.947,2225,-99.75,-3.05,0,0.0,0.0,False
+noonly-any-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'no')]",1078,-99.53,-0.0923,-3.07,0.865,0.886,1078,-99.53,-3.07,0,0.0,0.0,False
+noonly-any-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'no')]",2218,-99.39,-0.0448,-3.08,0.935,0.947,2218,-99.39,-3.08,0,0.0,0.0,False
+nhl-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXNHL',))]",685,-85.99,-0.1255,-3.08,0.815,0.852,316,-62.65,-3.11,369,-23.34,-1.21,False
+mlb-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXMLB',))]",939,-99.91,-0.1064,-3.08,0.823,0.851,934,-98.22,-3.04,5,-1.69,-0.63,False
+noonly-finance-55-65-24h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.65), ('hours_left', 24), ('lo', 0.55), ('side', 'no')]",294,-99.46,-0.3383,-3.11,0.51,0.6,232,-70.58,-2.49,62,-28.88,-1.96,False
+liquid-85-95-v1000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.85), ('max_spread', 0.01), ('min_vol', 1000)]",1427,-99.47,-0.0697,-3.12,0.899,0.915,1427,-99.47,-3.12,0,0.0,0.0,False
+nfl-70-80-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 12), ('lo', 0.7), ('series', ('KXNFL',))]",563,-99.9,-0.1774,-3.12,0.702,0.753,563,-99.9,-3.12,0,0.0,0.0,False
+other-70-78-48h-v1,live,Band,"[('cat', 'other'), ('hi', 0.78), ('hours_left', 48), ('lo', 0.7)]",490,-99.7,-0.2035,-3.15,0.69,0.741,490,-99.7,-3.15,0,0.0,0.0,False
+nhl-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXNHL',))]",631,-86.78,-0.1375,-3.16,0.818,0.851,296,-66.32,-3.27,335,-20.46,-1.11,False
+liquid-85-95-v10000-s01-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.85), ('max_spread', 0.01), ('min_vol', 10000)]",1191,-99.19,-0.0833,-3.17,0.893,0.914,1191,-99.19,-3.17,0,0.0,0.0,False
+nottop-k5-40-60-12h-v1,new:EventNotTop,EventNotTop,"[('hi', 0.6), ('hours_left', 12), ('lo', 0.4), ('min_brackets', 5)]",184,-99.99,-0.5434,-3.17,0.397,0.508,184,-99.99,-3.17,0,0.0,0.0,False
+trend-against-65-80-6h-m08-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 6), ('move', 0.08)]",388,-99.71,-0.257,-3.18,0.657,0.715,388,-99.71,-3.18,0,0.0,0.0,False
+other-70-78-4h-v1,live,Band,"[('cat', 'other'), ('hi', 0.78), ('hours_left', 4), ('lo', 0.7)]",410,-99.83,-0.2435,-3.2,0.68,0.742,410,-99.83,-3.2,0,0.0,0.0,False
+noonly-other-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'no')]",2069,-99.5,-0.0481,-3.21,0.935,0.947,1775,-79.85,-2.78,294,-19.65,-1.66,False
+liquid-85-95-v10000-s01-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.85), ('max_spread', 0.01), ('min_vol', 10000)]",1143,-99.4,-0.087,-3.25,0.89,0.913,1143,-99.4,-3.25,0,0.0,0.0,False
+trend-against-65-80-2h-m08-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 2), ('move', 0.08)]",359,-99.71,-0.2777,-3.25,0.655,0.717,359,-99.71,-3.25,0,0.0,0.0,False
+finance-70-78-48h-v1,live,Band,"[('cat', 'finance'), ('hi', 0.78), ('hours_left', 48), ('lo', 0.7)]",433,-92.87,-0.2145,-3.26,0.663,0.739,279,-72.37,-3.09,154,-20.5,-1.27,False
+liquid-85-95-v100000-s03-12h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 12), ('lo', 0.85), ('max_spread', 0.03), ('min_vol', 100000)]",955,-99.25,-0.1039,-3.26,0.874,0.902,928,-81.42,-2.77,27,-17.83,-2.47,False
+liquid-85-95-v100000-s03-48h-v1,new:LiquidBand,LiquidBand,"[('hi', 0.95), ('hours_left', 48), ('lo', 0.85), ('max_spread', 0.03), ('min_vol', 100000)]",969,-99.49,-0.1027,-3.27,0.874,0.902,930,-81.32,-2.76,39,-18.17,-2.4,False
+noonly-sports-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'no')]",991,-99.6,-0.1005,-3.29,0.865,0.887,991,-99.6,-3.29,0,0.0,0.0,False
+noonly-sports-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'no')]",1745,-99.51,-0.057,-3.3,0.931,0.947,1745,-99.51,-3.3,0,0.0,0.0,False
+other-70-78-12h-v1,live,Band,"[('cat', 'other'), ('hi', 0.78), ('hours_left', 12), ('lo', 0.7)]",395,-99.97,-0.2531,-3.31,0.684,0.741,395,-99.97,-3.31,0,0.0,0.0,False
+noonly-sports-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'no')]",961,-99.66,-0.1037,-3.31,0.862,0.888,961,-99.66,-3.31,0,0.0,0.0,False
+trend-against-65-80-12h-m08-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 12), ('move', 0.08)]",362,-99.63,-0.2752,-3.31,0.641,0.712,362,-99.63,-3.31,0,0.0,0.0,False
+noonly-any-85-92-24h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.92), ('hours_left', 24), ('lo', 0.85), ('side', 'no')]",942,-99.82,-0.106,-3.32,0.862,0.887,942,-99.82,-3.32,0,0.0,0.0,False
+trend-against-65-80-6h-m03-v1,new:Trend,Trend,"[('dir', 'against'), ('hi', 0.8), ('hours_left', 48), ('lo', 0.65), ('lookback_h', 6), ('move', 0.03)]",373,-99.41,-0.2665,-3.36,0.657,0.722,373,-99.41,-3.36,0,0.0,0.0,False
+noonly-any-85-92-48h-v1,new:SideBand,SideBand,"[('cat', 'any'), ('hi', 0.92), ('hours_left', 48), ('lo', 0.85), ('side', 'no')]",883,-99.76,-0.113,-3.38,0.86,0.887,883,-99.76,-3.38,0,0.0,0.0,False
+noonly-other-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'no')]",1658,-99.28,-0.0599,-3.39,0.931,0.946,1658,-99.28,-3.39,0,0.0,0.0,False
+luck-51-v1,luck,Luck,"[('chance', 0.05), ('max_price', 0.9)]",209,-99.54,-0.4763,-3.42,0.478,0.558,209,-99.54,-3.42,0,0.0,0.0,False
+noonly-sports-85-92-6h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.92), ('hours_left', 6), ('lo', 0.85), ('side', 'no')]",853,-99.57,-0.1167,-3.42,0.852,0.887,853,-99.57,-3.42,0,0.0,0.0,False
+mlb-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXMLB',))]",916,-90.85,-0.0992,-3.42,0.884,0.918,883,-93.4,-3.54,33,2.55,0.82,False
+weather-88-96-48h-v1,live,Band,"[('cat', 'weather'), ('hi', 0.96), ('hours_left', 48), ('lo', 0.88)]",946,-88.18,-0.0932,-3.5,0.896,0.923,607,-43.81,-2.22,339,-44.37,-2.84,False
+yesonly-other-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'yes')]",1429,-99.48,-0.0696,-3.56,0.926,0.946,1200,-78.59,-3.06,229,-20.89,-1.9,False
+noonly-sports-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'no')]",1542,-99.33,-0.0644,-3.56,0.925,0.947,1542,-99.33,-3.56,0,0.0,0.0,False
+clock-12-18-wkday-65-80-v1,new:Clock,Clock,"[('from_h', 12), ('hi', 0.8), ('hours_left', 24), ('lo', 0.65), ('to_h', 18), ('weekend', False)]",322,-99.66,-0.3095,-3.56,0.646,0.73,322,-99.66,-3.56,0,0.0,0.0,False
+yesonly-other-92-97-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.97), ('hours_left', 6), ('lo', 0.92), ('side', 'yes')]",1329,-99.26,-0.0747,-3.58,0.926,0.946,1037,-76.69,-3.11,292,-22.57,-1.78,False
+noonly-sports-92-97-24h-v1,new:SideBand,SideBand,"[('cat', 'sports'), ('hi', 0.97), ('hours_left', 24), ('lo', 0.92), ('side', 'no')]",1451,-99.44,-0.0685,-3.58,0.925,0.947,1451,-99.44,-3.58,0,0.0,0.0,False
+yesonly-other-65-75-6h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.75), ('hours_left', 6), ('lo', 0.65), ('side', 'yes')]",233,-99.38,-0.4265,-3.64,0.609,0.701,233,-99.38,-3.64,0,0.0,0.0,False
+nhl-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXNHL',))]",631,-85.52,-0.1355,-3.65,0.878,0.919,268,-33.41,-2.19,363,-52.11,-2.93,False
+nfl-70-80-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.8), ('hours_left', 48), ('lo', 0.7), ('series', ('KXNFL',))]",383,-99.39,-0.2595,-3.66,0.666,0.751,383,-99.39,-3.66,0,0.0,0.0,False
+yesonly-other-92-97-48h-v1,new:SideBand,SideBand,"[('cat', 'other'), ('hi', 0.97), ('hours_left', 48), ('lo', 0.92), ('side', 'yes')]",1298,-99.15,-0.0764,-3.67,0.925,0.946,1115,-83.59,-3.32,183,-15.56,-1.59,False
+noonly-finance-55-65-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.65), ('hours_left', 48), ('lo', 0.55), ('side', 'no')]",218,-99.47,-0.4563,-3.68,0.472,0.601,217,-98.31,-3.64,1,-1.16,0.0,False
+nhl-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXNHL',))]",616,-86.49,-0.1404,-3.71,0.877,0.92,269,-41.79,-2.67,347,-44.7,-2.59,False
+nfl-80-90-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 12), ('lo', 0.8), ('series', ('KXNFL',))]",616,-100.0,-0.1623,-3.73,0.804,0.854,616,-100.0,-3.73,0,0.0,0.0,False
+nfl-80-90-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.9), ('hours_left', 48), ('lo', 0.8), ('series', ('KXNFL',))]",545,-99.36,-0.1823,-3.84,0.8,0.854,539,-97.3,-3.79,6,-2.06,-0.66,False
+noonly-finance-65-75-48h-v1,new:SideBand,SideBand,"[('cat', 'finance'), ('hi', 0.75), ('hours_left', 48), ('lo', 0.65), ('side', 'no')]",232,-99.49,-0.4288,-3.9,0.603,0.703,210,-86.86,-3.52,22,-12.63,-1.89,False
+mlb-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXMLB',))]",769,-99.34,-0.1292,-3.9,0.873,0.918,769,-99.34,-3.9,0,0.0,0.0,False
+nfl-88-96-48h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 48), ('lo', 0.88), ('series', ('KXNFL',))]",708,-94.73,-0.1338,-3.97,0.881,0.924,599,-93.32,-4.1,109,-1.41,-0.2,False
+nfl-88-96-12h-v1,new:SeriesBand,SeriesBand,"[('hi', 0.96), ('hours_left', 12), ('lo', 0.88), ('series', ('KXNFL',))]",699,-99.22,-0.1419,-4.21,0.87,0.924,665,-93.18,-4.05,34,-6.04,-1.19,False

@@ -1,0 +1,42 @@
+Training ground: 600 bots replayed. TRAIN = closed before Oct 16, TEST = Oct 16 on.
+Luck line: the best 5% of luck bots reached a TRAIN t-score of -0.74.
+
+By family (settled profit after fees, all bots in the family added up):
+  new:SeriesBand          90 bots   47858 bets   -3680.39  (-7.7c/bet)  passed 0
+  new:EventTop            12 bots   29286 bets    -511.59  (-1.7c/bet)  passed 0
+  new:SideBand           150 bots  178745 bets   -9789.12  (-5.5c/bet)  passed 0
+  new:Clock               16 bots   20909 bets   -1111.29  (-5.3c/bet)  passed 0
+  live                   136 bots  189160 bets  -10823.16  (-5.7c/bet)  passed 0
+  new:LiquidBand          36 bots   44007 bets   -3162.56  (-7.2c/bet)  passed 0
+  luck                   100 bots   90514 bets   -9936.11  (-11.0c/bet)  passed 0
+  new:Trend               24 bots   42798 bets   -2391.92  (-5.6c/bet)  passed 0
+  new:EventNotTop         12 bots   12362 bets   -1196.06  (-9.7c/bet)  passed 0
+  new:Mover               24 bots   47052 bets   -2394.22  (-5.1c/bet)  passed 0
+
+PASSED (best first by overall t-score):
+
+LIVE army bots that LOST in both train and test:
+  crypto-21-33-48h-v1                        -99.97 on 166 bets
+  finance-21-33-48h-v1                       -99.85 on 434 bets
+  finance-21-33-6h-v1                        -99.83 on 391 bets
+  other-80-88-48h-v1                         -99.57 on 3410 bets
+  sports-88-96-12h-v1                        -99.27 on 3257 bets
+  finance-70-78-48h-v1                       -92.87 on 433 bets
+  weather-70-78-48h-v1                       -89.94 on 700 bets
+  weather-88-96-48h-v1                       -88.18 on 946 bets
+  finance-33-45-48h-v1                       -85.98 on 495 bets
+  weather-70-78-12h-v1                       -85.95 on 377 bets
+  crypto-45-55-48h-v1                        -81.95 on 145 bets
+  finance-70-78-12h-v1                       -78.03 on 453 bets
+  weather-80-88-48h-v1                       -70.73 on 922 bets
+  crypto-33-45-48h-v1                        -52.75 on 198 bets
+  weather-80-88-12h-v1                       -51.07 on 461 bets
+  finance-80-88-48h-v1                       -48.21 on 486 bets
+  finance-70-78-4h-v1                        -46.79 on 348 bets
+  finance-80-88-12h-v1                       -31.06 on 483 bets
+  weather-88-96-12h-v1                       -29.70 on 723 bets
+  crypto-21-33-6h-v1                         -26.78 on 145 bets
+  crypto-45-55-6h-v1                         -24.28 on 86 bets
+  crypto-80-88-12h-v1                        -22.18 on 195 bets
+  crypto-70-78-12h-v1                        -14.21 on 182 bets
+  finance-80-88-4h-v1                        -11.96 on 393 bets

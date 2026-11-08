@@ -2,3 +2,5 @@ __pycache__/
 /paper.db
 run.log
 reports/
+
+trainer/data/
