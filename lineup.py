@@ -8,6 +8,7 @@ still settle, they just stop buying). Luck bots are never retired: they're the c
 from recruits import build_recruits
 from strategies import ARMY as ORIGINAL_ARMY
 from strategies import CORE
+from weather2 import build_weather2
 
 # 2026-11-08 run (trainer/results.txt): 0 of 500 strategies passed the full rule. These 13 made money in BOTH
 # halves (40+ bets) but aren't proven; they go live as a watchlist so real trading can prove or kill them.
@@ -31,5 +32,8 @@ for _b in ORIGINAL_ARMY:
         _b.retired = True
 
 RECRUITS = [b for b in build_recruits() if b.key in LIVE_RECRUITS]
-ARMY = ORIGINAL_ARMY + RECRUITS
+# 2026-11-09: weather-v2 = same-day highs using the recorded max so far + a 7-source forecast blend (weather2.py).
+# Not backtestable (no free archive of old forecasts), so all 16 settings go live and the army judges them.
+WEATHER2 = build_weather2()
+ARMY = ORIGINAL_ARMY + RECRUITS + WEATHER2
 BOTS = CORE + ARMY

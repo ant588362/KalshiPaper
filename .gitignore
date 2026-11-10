@@ -4,3 +4,5 @@ run.log
 reports/
 
 trainer/data/
+trainer/maker_results*.csv
+trainer/trades_download.log

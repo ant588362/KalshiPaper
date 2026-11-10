@@ -246,5 +246,61 @@ class Army(unittest.TestCase):
         self.assertAlmostEqual(t_bar(200), 3.66, places=1)
 
 
+class WeatherNowTests(unittest.TestCase):
+    """weather-v2 with the network swapped for fixed numbers."""
+
+    def setUp(self):
+        import weather
+        import weather2
+        self.w2, self.saved = weather2, (weather2.station_info, weather2.model_highs, weather2.observed_max,
+                                         weather.forecast_highs)
+        weather2.station_info = lambda s: (40.8, -74.0, "America/New_York")
+        weather2.model_highs = lambda lat, lon: {"2026-11-09": [70.0, 71.0, 70.5, 69.5, 70.0, 71.0],
+                                                 "2026-11-10": [60.0, 61.0, 60.0, 62.0, 61.0, 60.0]}
+        self.obs = [72.0, 15.0]
+        weather2.observed_max = lambda st, tz: (self.obs[0], self.obs[1], "2026-11-09")
+        weather.forecast_highs = lambda st: ({"2026-11-09": 70}, "America/New_York")
+
+    def tearDown(self):
+        import weather
+        (self.w2.station_info, self.w2.model_highs, self.w2.observed_max, weather.forecast_highs) = self.saved
+
+    def mkt(self, code="26NOV09", strike="less", floor=None, cap=70, yes_ask=0.40, yes_bid=0.38):
+        return {"event": f"KXHIGHNY-{code}", "ticker": f"KXHIGHNY-{code}-T{cap or floor}",
+                "rules": "recorded at New York City (CLINYC)", "strike_type": strike, "floor_strike": floor,
+                "cap_strike": cap, "yes_ask": yes_ask, "yes_bid": yes_bid, "no_ask": round(1 - yes_bid, 2),
+                "no_bid": round(1 - yes_ask, 2), "siblings": []}
+
+    def test_already_too_hot_means_no(self):
+        # 72F already recorded, so "under 70" can't happen; YES at 40c is wrong -> buy NO (62c)
+        side, max_price, stake, note = self.w2.WeatherNow("t", {}).decide(self.mkt(), [])
+        self.assertEqual(side, "no")
+        self.assertIn("obs max 72.0F", note)
+
+    def test_cdf_never_below_recorded_max(self):
+        self.assertEqual(self.w2.high_cdf(69.5, 71.0, 80.0, 2.0), 0.0)
+        self.assertAlmostEqual(self.w2.today_bracket_prob("greater", 60, None, None, 70.0, 1.0), 1.0, places=6)
+
+    def test_waits_until_min_hour(self):
+        self.obs[1] = 9.0
+        self.assertIsNone(self.w2.WeatherNow("t", {"min_hour": 10}).decide(self.mkt(), []))
+
+    def test_tomorrow_only_for_both(self):
+        m = self.mkt(code="26NOV10", strike="greater", floor=65, cap=None, yes_ask=0.40, yes_bid=0.38)
+        self.assertIsNone(self.w2.WeatherNow("t", {"days": "today"}).decide(m, []))
+        side, *_ = self.w2.WeatherNow("t", {"days": "both"}).decide(m, [])
+        self.assertEqual(side, "no")  # blend ~61F, 66+ is unlikely
+
+    def test_fair_price_no_trade(self):
+        # 72F recorded at 15h: "72 or below" (less 73) is likely, but at 95c there's no edge left
+        m = self.mkt(strike="less", cap=73, yes_ask=0.95, yes_bid=0.93)
+        self.assertIsNone(self.w2.WeatherNow("t", {}).decide(m, []))
+
+    def test_sixteen_unique_bots(self):
+        bots = self.w2.build_weather2()
+        self.assertEqual(len({b.key for b in bots}), 16)
+        self.assertEqual(len({b.fingerprint() for b in bots}), 16)
+
+
 if __name__ == "__main__":
     unittest.main()

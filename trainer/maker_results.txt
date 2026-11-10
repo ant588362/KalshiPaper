@@ -1,0 +1,12 @@
+Overall (cat=all, every band/hours bucket):
+  maker-improve-2h       37611 bets   -23893.93  -63.53c/bet
+  maker-improve-8h       60065 bets   -38863.28  -64.70c/bet
+  maker-join-2h          65770 bets   -44065.02  -67.00c/bet
+  maker-join-8h         127483 bets   -89351.88  -70.09c/bet
+  taker                 330353 bets   -36992.25  -11.20c/bet
+
+630 settings tested. PASSED (train t>=2 AND test t>=1, both profitable, enough bets): 1
+  taker -       0h crypto   0.55-0.65   6-24h fill   train 165 @ +41.3c t2.15  test 82 @ +21.2c t1.26
+
+Bonferroni bar for 630 settings is about t 3.9 on ALL data.
+Passed AND above that bar: 0

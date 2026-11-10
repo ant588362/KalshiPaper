@@ -1,0 +1,15 @@
+Overall (cat=all, every band/hours bucket):
+  maker-improve-through-2h    1999 bets     -756.47  -37.84c/bet
+  maker-improve-through-8h    2882 bets    -1129.61  -39.20c/bet
+  maker-improve-touch-2h    2180 bets     -714.77  -32.79c/bet
+  maker-improve-touch-8h    3037 bets    -1043.68  -34.37c/bet
+  maker-join-through-2h    3351 bets    -1304.41  -38.93c/bet
+  maker-join-through-8h    5422 bets    -2163.60  -39.90c/bet
+  maker-join-touch-2h     4522 bets    -1357.30  -30.02c/bet
+  maker-join-touch-8h     6249 bets    -1914.48  -30.64c/bet
+  taker                   7954 bets    -1094.25  -13.76c/bet
+
+1065 settings tested. PASSED (train t>=2 AND test t>=1, both profitable, enough bets): 0
+
+Bonferroni bar for 1065 settings is about t 4.1 on ALL data.
+Passed AND above that bar: 0
