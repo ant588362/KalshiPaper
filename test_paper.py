@@ -296,6 +296,14 @@ class WeatherNowTests(unittest.TestCase):
         m = self.mkt(strike="less", cap=73, yes_ask=0.95, yes_bid=0.93)
         self.assertIsNone(self.w2.WeatherNow("t", {}).decide(m, []))
 
+    def test_every_live_bot_has_a_dashboard_label(self):
+        # 2026-11-09: kind_of() crashed on the new wx2 bots, so every tick failed AFTER trading, before saving.
+        import lineup
+        import run
+        for b in lineup.BOTS:
+            self.assertTrue(run.kind_of(b)[0], b.key)
+            run.describe(b)
+
     def test_sixteen_unique_bots(self):
         bots = self.w2.build_weather2()
         self.assertEqual(len({b.key for b in bots}), 16)

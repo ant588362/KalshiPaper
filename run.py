@@ -445,6 +445,8 @@ def kind_of(b):
         return "luck", "any"
     if b.key.startswith("wx-"):
         return "weather model", "weather"
+    if b.key.startswith("wx2-"):
+        return "weather today", "weather"
     if getattr(b, "recruit", False):
         return b.family, b.params.get("cat", "any")
     lo, hi = b.params["lo"], b.params["hi"]
@@ -473,6 +475,10 @@ def describe(b):
     if b.key.startswith("wx-"):
         return (f"Weather: bets when the forecast and the market disagree by {P['min_shift_f']:g}F+, only with "
                 f"{P['min_edge'] * 100:.0f}c+ of edge after the fee, assuming at least +/-{P['min_sd_f']:g}F of error.")
+    if b.key.startswith("wx2-"):
+        warm = f" warmed {P['bias_f']:g}F" if P["bias_f"] else ""
+        return (f"Weather today: uses the highest temperature already recorded + a 7-forecast blend{warm}, "
+                f"from {P['min_hour']}:00 local, {P['min_edge'] * 100:.0f}c+ edge after the fee.")
     where = "any market" if P["cat"] == "any" else f"{P['cat']} markets"
     return f"Buys the side priced {P['lo'] * 100:.0f}-{P['hi'] * 100:.0f}c in {where}, within {P['hours_left']}h of closing."
 
