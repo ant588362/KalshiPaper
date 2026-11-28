@@ -1,0 +1,55 @@
+Kalshi paper report 2026-11-28_1153 (pretend money, real Kalshi prices)
+Limits: $3.0/trade, $6.0/event, $50.0 deployed max, start $100.0
+Runs in the last 24h: 188, longest gap 2.5h
+No bot buys anything priced under $0.21. Retired bots keep their record but don't trade.
+
+cash-v1        equity $ 100.00  net   +0.00  (settled +0.00, open +0.00)  fees $0.00  settled 0 (0W/0L)  open 0  worst drop $0.00  the bar to beat
+random-v1      equity $  25.06  net  -74.94  (settled -69.43, open +0.00)  fees $23.38  settled 219 (91W/128L)  open 0  worst drop $95.11  RETIRED (record kept)
+favorite-v1    equity $  63.54  net  -36.46  (settled -8.01, open -19.99)  fees $12.64  settled 594 (541W/53L)  open 20  worst drop $68.36  losing to cash
+momentum-v1    equity $  66.10  net  -33.90  (settled -33.90, open +0.00)  fees $8.26  settled 105 (53W/52L)  open 0  worst drop $42.24  RETIRED (record kept)
+reversion-v1   equity $   8.11  net  -91.89  (settled -91.89, open +0.00)  fees $11.16  settled 88 (24W/64L)  open 0  worst drop $97.23  RETIRED (record kept)
+random-v2      equity $   4.09  net  -95.91  (settled -60.35, open -13.46)  fees $120.22  settled 1710 (955W/755L)  open 6  worst drop $185.38  losing to cash
+weather-v1     equity $   0.49  net  -99.51  (settled -91.70, open -7.81)  fees $11.44  settled 113 (48W/65L)  open 3  worst drop $99.91  losing to cash
+
+Ready for more money? (100+ settled, profit after fees, t-score 3.7+ because 231 bots are being tested at once)
+  favorite-v1    594 settled, -8.01 total, -0.013/trade, t-score -0.4 -> NO, profit isn't proven
+  random-v2      1710 settled, -60.35 total, -0.035/trade, t-score -0.6 -> NO, profit isn't proven
+  weather-v1     113 settled, -91.70 total, -0.812/trade, t-score -2.4 -> NO, profit isn't proven
+
+ARMY: 224 bots, 219 have traded, 121687 settled bets, 1040 open
+Luck line: the best of 30 random bots is luck-11-v1 at -55.66 settled (1148 bets). A strategy below this hasn't shown anything luck can't do.
+Top 15 by settled profit (ties: by equity):
+  wx2-b0-e08-h14-m0.5-v1   settled +101.47  equity $ 168.71  86W/80L  open 11  t-score 1.7 -> NO, profit isn't proven
+  wx2-b0-e15-h14-m0.5-v1   settled  +81.26  equity $ 146.07  72W/74L  open 8  t-score 1.4 -> NO, profit isn't proven
+  wx2-b0-e08-h14-m1-v1     settled  +69.34  equity $ 132.09  79W/87L  open 12  t-score 1.2 -> NO, profit isn't proven
+  yesonly-crypto-92-97-6h-v1 settled  +65.73  equity $ 166.54  1784W/73L  open 6  t-score 2.6 -> NO, profit isn't proven
+  weather-33-45-48h-v1     settled  +55.80  equity $ 125.48  119W/156L  open 19  t-score 1.1 -> NO, profit isn't proven
+  wx2-b1.5-e08-h14-m0.5-v1 settled  +48.89  equity $ 115.31  72W/89L  open 10  t-score 0.8 -> NO, profit isn't proven
+  sports-21-33-6h-v1       settled  +38.73  equity $ 126.91  7W/4L  open 0  t-score 2.2 -> not yet
+  wx2-b1.5-e15-h14-m0.5-v1 settled  +36.67  equity $ 107.42  59W/85L  open 6  t-score 0.6 -> NO, profit isn't proven
+  wx2-b1.5-e08-h14-m1-v1   settled  +36.18  equity $  98.11  68W/93L  open 11  t-score 0.6 -> NO, profit isn't proven
+  wx2-b0-e15-h14-m1-v1     settled  +34.17  equity $  98.98  66W/83L  open 8  t-score 0.6 -> NO, profit isn't proven
+  wx2-b1.5-e15-h14-m1-v1   settled  +24.47  equity $  95.22  58W/89L  open 6  t-score 0.4 -> NO, profit isn't proven
+  finance-21-33-48h-v1     settled  +13.04  equity $ 113.04  4W/6L  open 0  t-score 0.8 -> not yet
+  sports-33-45-6h-v1       settled   +6.12  equity $  92.29  5W/5L  open 0  t-score 0.5 -> not yet
+  weather-80-88-48h-v1     settled   +4.23  equity $ 104.23  30W/5L  open 0  t-score 0.8 -> not yet
+  other-80-88-48h-v1       settled   +4.18  equity $ 104.18  149W/24L  open 0  t-score 0.3 -> NO, profit isn't proven
+Bottom 5:
+  fav-85-90-2h-v1          settled  -99.96  equity $   0.04  561W/113L
+  yesonly-crypto-65-75-24h-v1 settled  -99.97  equity $   0.03  336W/177L
+  weather-21-33-6h-v1      settled  -99.99  equity $   0.01  61W/195L
+  finance-88-96-12h-v1     settled -100.00  equity $   0.00  275W/58L
+  finance-33-45-6h-v1      settled -100.00  equity $   0.00  27W/78L
+Army bots READY for more money: none yet
+
+Open marks: 0 position(s) had NO quote and 620 had no bid; both are valued at $0 above. Settled P&L is the real number.
+
+Biggest open exposure by underlying (same coin / commodity / game across markets):
+  favorite-v1    BTC $9.13, KXHIGHLAX $5.61, ETH $5.56
+  random-v2      KXLOWTOKC $2.98, KXHIGHTOKC $2.96, KXRAIN $2.95
+  weather-v1     KXHIGHTDAL $5.75, KXHIGHAUS $2.06
+
+This run:
+settled fav-80-85-48h-v1 KXCS2GAME-26NOV280530EFTL-TL no -> yes, paid $0.00
+settled fav-80-85-48h-v1 KXCS2GAME-26NOV280530EFTL-EF yes -> no, paid $0.00
+settled fav-65-70-48h-v1 KXLIGAPROMATCH-26NOV280600IZRPIS-PIS yes -> no, paid $0.00
